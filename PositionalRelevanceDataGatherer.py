@@ -1,91 +1,58 @@
-from openrouter import OpenRouter
-import Secret
-import datetime
-from random import randrange
-from random import choice
+import os
+from pathlib import Path
+from random import choice, sample
 
-OR = OpenRouter(api_key=Secret.OPENROUTER_APIKEY)
+from dotenv import load_dotenv
 
-prompt = """You are an AI research assistant tasked with generating a single instance of testing data for a research project. You will generate a fictitious tax report.
-The following facts will be true in this report: The date the report is filed for will be day:{day} month:{month} year:{year} (vary the format). The amount of money owed will be {money} euro. There will be a section for additional remarks, this section will mention the following topics naturally: {topic1}, {topic2}.
-Generate this document in only plain text formatting. Do not add commentary or comments, only return the output.
+prompt = """Write a fictional wildlife field report about the invented species Itherstan Velari.
+Use a neutral field-report style with plain text headings and paragraphs.
+The report concerns {sector}. In this area, Itherstan Velari give birth during {month}.
+State this birth month explicitly and do not contradict it.
+Include details about {topic1} and {topic2}. Aim for about {words} words.
+Start with a short title followed by a blank line. Return only the report.
 """
 
-defaultTopics = ["zoo", "festival", "noise complaints", "bonuses", "television", "bicycle", "resident", "popularity", "illness"]
+defaultTopics = ["habitat", "diet", "nesting", "parental behaviour", "migration", "social behaviour"]
+months = "January February March April May June July August September October November December".split()
 
 
-class __FileWriter():
-    filename = ""
-    def setup(self, name):
-        self.filename = name
-        open(name, "w").close()
+def startGatherer(docsToGenerate=3, words=800, topics=defaultTopics, output="output/reports"):
+    from openrouter import OpenRouter
 
-    def append(self, content:str):
-        f = open(self.filename, "a")
-        f.write(content + "\n ---- \n")
-        f.close()
+    load_dotenv(Path(__file__).resolve().parent / ".env")
+    key = os.environ.get("OPENROUTER_API_KEY")
+    model = os.environ.get("OPENROUTER_MODEL")
+    if not key or not model:
+        raise ValueError("Set OPENROUTER_API_KEY and OPENROUTER_MODEL in .env.")
+    if docsToGenerate < 1 or words < 1 or len(set(topics)) < 2:
+        raise ValueError("Use positive document/word counts and at least two distinct topics.")
 
-    
-def getFileWriter(name:str) -> __FileWriter:
-    FW = __FileWriter()
-    FW.setup(name)
-    return FW
+    directory = Path(output)
+    directory.mkdir(parents=True, exist_ok=True)
+    client = OpenRouter(api_key=key, timeout_ms=180000)
 
-def getMoneyOwed(min:int, max:int) -> int:
-    return max(0, randrange(min, max))
-
-def chooseTopics(topics:list) -> list:
-    if(len(topics) >= 2):
-        choice1 = ""
-        choice2 = ""
-
-        while choice1 == choice2:
-            choice1 = choice(topics)
-            choice2 = choice(topics)
-
-        return [choice1, choice2]
-        
-    else:
-        raise Exception("length of topics list cannot be below 2")
-
-
-def startGatherer(docsToGenerate = 4, initialDate = datetime.datetime(2015, 5, 15), dateIncrement = 15, minMoney = -1000, maxMoney = 2000, topics = defaultTopics):
-    """Starts the gathering process. Minmoney can be negative as it'll be reset to 0 (which will influence random chance)"""
-
-    currentDate = initialDate
-
-    FW = getFileWriter("output.txt")
-
-    for docsGenerated in range(0, docsToGenerate):
-        print(f"thinking on how to write document {docsGenerated+1}")
-
-        moneyOwed = getMoneyOwed(minMoney, maxMoney)
-
-        currentTopics = chooseTopics(topics)
-    
-        response = OR.chat.send(
-            model="openai/gpt-5.6-luna",
-            messages=[
-                {"role": "user", "content": f"""{prompt.format(
-                    day=currentDate.day,
-                    month=currentDate.month,
-                    year=currentDate.year,
-                    money=moneyOwed,
-                    topic1=currentTopics[0],
-                    topic2=currentTopics[1]
-                    )}"""}
-            ],
-        )
-
-        print(f"writing document {docsGenerated+1}")
-
-        FW.append(response.choices[0].message.content)
-
-        currentDate += datetime.timedelta(days = dateIncrement)
+    for number in range(1, docsToGenerate + 1):
+        outputFile = directory / f"report-{number:03d}.txt"
+        if outputFile.exists():
+            raise FileExistsError(f"Report already exists: {outputFile}")
+        topic1, topic2 = sample(sorted(set(topics)), 2)
+        request = prompt.format(sector=f"Sector {number:03d}", month=choice(months),
+                                topic1=topic1, topic2=topic2, words=words)
+        print(f"Generating report {number}")
+        response = client.chat.send(model=model, messages=[{"role": "user", "content": request}],
+                                    max_tokens=4096, reasoning={"effort": "low"}, stream=True)
+        parts = []
+        for event in response:
+            content = event.choices[0].delta.content if event.choices else None
+            if content:
+                parts.append(content)
+                print(".", end="", flush=True)
+        print()
+        text = "".join(parts)
+        if not text.strip():
+            raise ValueError(f"Report {number} returned no text.")
+        outputFile.write_text(text, encoding="utf-8")
 
 
 if __name__ == "__main__":
-
-    startGatherer(3)
-
-
+    startGatherer()
