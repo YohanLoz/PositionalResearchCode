@@ -1,0 +1,299 @@
+% Card 1 The Malsuiilu Ithardania is commonly called the Itherstan Velari. It is a semi-aquatic mammal known for unusually flexible social behavior. %
+---
+% Card 2 Adult Itherstan Velari typically measure between 1.4 and 1.9 meters long, including the tail. Their bodies are low-slung and built for moving through reeds, mud, and shallow water. %
+---
+% Card 3 The species has four webbed limbs, but its front limbs retain dexterous, fingerlike claws. These claws are used for opening shells, knotting plant fibers, and grooming companions. %
+---
+% Card 4 Itherstan Velari fur is naturally dark at the roots and pale at the tips. When wet, this layered coloration produces a rippling silver effect. %
+---
+% Card 5 Each Velari has a unique pattern of whisker spots around its muzzle. Individuals can recognize one another from these markings at surprisingly long distances. %
+---
+% Card 6 The animal’s eyes contain a reflective layer that improves vision in murky water. This layer gives the pupils a faint green-gold shine at night. %
+---
+% Card 7 Itherstan Velari ears can fold tightly against the skull. This protects them from silt during underwater dives. %
+---
+% Card 8 A Velari can remain submerged for nearly twelve minutes when resting. During active pursuit, it usually resurfaces much sooner. %
+---
+% Card 9 The species breathes through lungs but can absorb limited oxygen through specialized skin on its throat. This adaptation helps it remain still beneath floating vegetation. %
+---
+% Card 10 Itherstan Velari nostrils close automatically underwater. Their noses also contain sensitive folds that detect chemical traces in currents. %
+---
+% Card 11 The Velari’s tail functions as both a rudder and a signaling device. A slow side-to-side sweep generally indicates calmness, while rapid tapping may warn of danger. %
+---
+% Card 12 Its hind feet contain elongated toes connected by elastic membranes. These membranes stretch during swimming and contract during climbing. %
+---
+% Card 13 Itherstan Velari teeth continue growing throughout life. Hard-shelled prey and mineral-rich reeds naturally keep them worn down. %
+---
+% Card 14 The species can crack freshwater mussels without crushing the edible tissue inside. It does this by applying pressure at a precise hinge point. %
+---
+% Card 15 Velari diets include fish, aquatic insects, tubers, fungi, eggs, and fermented fruit. Individual communities often develop strong food preferences. %
+---
+% Card 16 Some Itherstan Velari deliberately bury portions of food in separate locations. They later relocate these caches using scent and memory rather than visible landmarks. %
+---
+% Card 17 A Velari may maintain dozens of food caches at once. Researchers describe this behavior as unusually organized for a solitary forager. %
+---
+% Card 18 The species is capable of eating mildly toxic plants after soaking them in running water. This preparation removes several irritating compounds. %
+---
+% Card 19 Itherstan Velari sometimes share meals with unrelated individuals. Food sharing is most common after successful cooperative hunts. %
+---
+% Card 20 The animal’s tongue has a rough central ridge used to scrape algae from stones. It can also detect subtle changes in water salinity. %
+---
+% Card 21 Velari communities use underwater chambers as communal sleeping sites. These chambers are connected by narrow tunnels that only the animals can navigate easily. %
+---
+% Card 22 Individual Velari often maintain private sleeping alcoves within communal dens. The alcoves are lined with dry grasses, shed fur, and fragrant leaves. %
+---
+% Card 23 The species can reshape a den over several years. It may enlarge entrances, redirect water flow, or create emergency exits during flood seasons. %
+---
+% Card 24 Itherstan Velari entrances are often concealed beneath floating mats of vegetation. The camouflage is renewed each day by rearranging nearby stems. %
+---
+% Card 25 A Velari can remember the layout of a complex den after being absent for several years. This long-term spatial memory is especially strong in older adults. %
+---
+% Card 26 The species is neither strictly nocturnal nor diurnal. Its activity periods shift according to temperature, water clarity, and social opportunity. %
+---
+% Card 27 Itherstan Velari often become most active during heavy rain. Rain masks their movements and carries food scents into their range. %
+---
+% Card 28 During droughts, Velari may travel overland between isolated pools. They protect their eyes with a translucent inner eyelid while crossing dusty ground. %
+---
+% Card 29 The species can climb smooth-barked trees using rotating ankle joints. It descends headfirst by locking its hind claws into the bark. %
+---
+% Card 30 Itherstan Velari tracks have a distinctive asymmetrical pattern. One front foot usually lands slightly inward because of a specialized wrist joint. %
+---
+% Card 31 The animal produces whistles, clicks, hums, and low throat pulses. Some calls travel through water more effectively than through air. %
+---
+% Card 32 Velari greeting rituals may last several minutes. Two individuals touch whiskers, circle one another, and exchange soft pulsing sounds. %
+---
+% Card 33 The species has no fixed dominance hierarchy. Social influence changes according to age, skill, kinship, and immediate circumstances. %
+---
+% Card 34 An individual that discovers a rich feeding site may invite another Velari rather than defend it. Such invitations can strengthen partnerships lasting for years. %
+---
+% Card 35 Itherstan Velari form temporary hunting teams of two to six animals. Team members coordinate by flashing the pale undersides of their tails. %
+---
+% Card 36 During cooperative hunts, one Velari may stir sediment while others wait downstream. The disturbed prey is then intercepted by the waiting animals. %
+---
+% Card 37 The species sometimes appoints a lookout during communal feeding. The lookout receives food afterward, but not always a larger portion. %
+---
+% Card 38 Velari young are raised by flexible caregiving groups. A nonparent may nurse, guard, teach, or carry an infant without being a close relative. %
+---
+% Card 39 Adults can recognize the vocal signatures of numerous juveniles. They respond most rapidly to calls from young they have personally mentored. %
+---
+% Card 40 Juvenile Itherstan Velari practice hunting with smooth stones before attempting to catch living prey. The stones are carried, hidden, and retrieved as part of play. %
+---
+% Card 41 Young Velari frequently imitate the movements of several adults rather than copying one parent. This produces noticeable differences in technique between littermates. %
+---
+% Card 42 The species has an unusually extended period of adolescence. Young adults may continue learning social customs long after reaching full body size. %
+---
+% Card 43 Itherstan Velari can form lifelong bonds with members of the same sex. These bonds may include co-sleeping, food sharing, territory defense, and joint caregiving. %
+---
+% Card 44 Some Velari maintain several intimate partnerships simultaneously. Their relationships are negotiated through repeated displays rather than fixed pair-bond rules. %
+---
+% Card 45 A bonded pair may invite a third adult into its den without treating the newcomer as subordinate. Cooperative household groups of five or more are common. %
+---
+% Card 46 Velari communities recognize personal boundaries through scent-marking conventions. Entering a marked sleeping alcove without invitation can trigger elaborate apology behavior. %
+---
+% Card 47 Apology displays include lowered ears, exposed palms, rhythmic blinking, and offering a small object. The offended individual may accept or reject the offering. %
+---
+% Card 48 Itherstan Velari are capable of reconciliation after aggressive conflicts. Reconciliation often begins when one animal presents a familiar grooming tool. %
+---
+% Card 49 The species sometimes adopts orphaned juveniles from neighboring groups. Adopted young retain some behaviors from their birth community. %
+---
+% Card 50 Velari social memory includes remembered debts and favors. An animal may repay assistance months later by sharing a distant food cache. %
+---
+% Card 51 Itherstan Velari use scent glands beneath the chin to mark stones, roots, and den entrances. Their scent marks contain information about identity and emotional state. %
+---
+% Card 52 Scent marking is not limited to territorial defense. Individuals also mark objects they consider socially important. %
+---
+% Card 53 Velari often exchange decorated stones. The stones may be carried for years and are sometimes placed beside sleeping companions. %
+---
+% Card 54 Certain stones are polished by repeated handling until their surfaces become glossy. Their owners may become visibly distressed if the stones are lost. %
+---
+% Card 55 The species can distinguish at least several dozen natural mineral odors. It uses this ability to locate underground water and mineral deposits. %
+---
+% Card 56 Itherstan Velari are known to collect objects with no obvious nutritional value. Feathers, shells, colored bark, and smooth metal fragments are especially favored. %
+---
+% Card 57 Some individuals arrange collected objects in repeating patterns. These arrangements are altered after storms, social gatherings, or significant losses. %
+---
+% Card 58 Velari occasionally place objects on the bodies of deceased companions. The objects are usually familiar items associated with grooming or play. %
+---
+% Card 59 The species appears to recognize death as a permanent condition. It may revisit a burial site but does not generally attempt to awaken the body. %
+---
+% Card 60 Itherstan Velari burial sites are shallow chambers above the usual flood line. They are often surrounded by planted reeds. %
+---
+% Card 61 The animal can learn simple symbolic systems involving colored flags. Different colors may represent food, danger, shelter, or a request for company. %
+---
+% Card 62 Velari groups pass traditions between generations through demonstration. Young animals are expected to observe a skill before being allowed to attempt it. %
+---
+% Card 63 Some communities teach juveniles distinctive “dialects” of tail movements. These movement dialects can persist even after individuals relocate. %
+---
+% Card 64 Itherstan Velari can imitate the calls of several marsh birds. Imitation is used to lure prey, test strangers, and amuse companions. %
+---
+% Card 65 A Velari’s vocal range changes with age. Older individuals often develop deeper pulses, while juveniles produce sharper whistles. %
+---
+% Card 66 The species can synchronize its breathing with another individual. This behavior is most common during grooming and shared rest. %
+---
+% Card 67 Velari grooming is highly social but not strictly reciprocal. One animal may groom another repeatedly without receiving immediate repayment. %
+---
+% Card 68 The animal’s whiskers are sensitive enough to detect small currents caused by moving prey. They can also identify the wake of a familiar companion. %
+---
+% Card 69 Itherstan Velari sometimes use strands of grass as fishing tools. They drag the strands through crevices to provoke hidden insects. %
+---
+% Card 70 Some individuals fashion hooks from fish spines. Tool use is learned socially and is more common in groups with older mentors. %
+---
+% Card 71 The species can solve multi-step food puzzles. It may move several objects in sequence before reaching a concealed reward. %
+---
+% Card 72 Velari have been observed abandoning an easier food source to investigate a novel object. Curiosity can override immediate feeding priorities. %
+---
+% Card 73 An Itherstan Velari may spend hours studying its reflection in still water. Such behavior is most frequent among juveniles and recently relocated adults. %
+---
+% Card 74 The species can recognize itself in certain reflective surfaces. It responds differently to its own reflection than to an unfamiliar animal. %
+---
+% Card 75 Velari are capable of delayed gratification. They may hide a preferred food item rather than eat it immediately. %
+---
+% Card 76 The animal can distinguish between accidental and intentional movements by companions. This ability helps it interpret playful feints during social interaction. %
+---
+% Card 77 Itherstan Velari sometimes engage in mock conflicts that involve exaggerated bites and dramatic retreats. These encounters rarely cause injury. %
+---
+% Card 78 Play is not restricted to juveniles. Adults may play with floating objects, chase one another through tunnels, or invent new carrying games. %
+---
+% Card 79 Velari play groups can include animals of widely different ages. Older individuals often modify games to accommodate smaller participants. %
+---
+% Card 80 The species occasionally plays with other marsh animals, including certain birds and turtles. These cross-species interactions are usually initiated by the Velari. %
+---
+% Card 81 Itherstan Velari can remain motionless for long periods while hunting. Their breathing becomes shallow, and their fur lies flat against the body. %
+---
+% Card 82 When threatened, a Velari may inflate loose skin along its neck. This makes the animal appear larger and disrupts an attacker’s grip. %
+---
+% Card 83 The species has several defensive responses rather than a single escape pattern. It may flee, freeze, dive, bluff, or recruit nearby companions. %
+---
+% Card 84 Velari alarm calls differ according to the type of danger. Aerial threats, large predators, and unfamiliar Velari each produce distinct warnings. %
+---
+% Card 85 A group may mob a predator by splashing, snapping, and throwing mud. The goal is usually to drive the predator away rather than injure it. %
+---
+% Card 86 Itherstan Velari are unusually tolerant of harmless snakes. They become aggressive only when a snake approaches a den or juvenile. %
+---
+% Card 87 The animal’s body temperature can drop several degrees during prolonged dives. This reduces oxygen consumption and delays fatigue. %
+---
+% Card 88 Velari blood contains an unusually high concentration of oxygen-binding proteins. Their muscles therefore remain functional during temporary oxygen shortages. %
+---
+% Card 89 The species sheds its outer fur in irregular patches rather than during one annual molt. Shedding is accelerated by warm water and frequent swimming. %
+---
+% Card 90 Shed Velari fur is collected by birds and insects for nest lining. The animals do not appear to defend loose fur once it has fallen away. %
+---
+% Card 91 Itherstan Velari skin secretes a mild antimicrobial oil. This oil helps protect small scratches received in muddy environments. %
+---
+% Card 92 The animal’s paws contain pressure-sensitive pads. These pads allow it to identify hollow ground before stepping onto it. %
+---
+% Card 93 Velari can detect underground water by placing their chins against the soil. Vibrations and temperature differences both contribute to the response. %
+---
+% Card 94 The species changes its route when water chemistry becomes unfavorable. It can detect pollution levels that do not visibly alter the water. %
+---
+% Card 95 Itherstan Velari sometimes create small channels between isolated pools. These channels improve access to food and may also help other species survive. %
+---
+% Card 96 A single Velari may maintain a network of dozens of small water passages. The network is gradually reshaped after every major flood. %
+---
+% Card 97 The species transports seeds in its cheek pouches. Seeds are often deposited far from the parent plant in newly disturbed soil. %
+---
+% Card 98 Velari feeding behavior can increase plant diversity around wetlands. Their digging opens patches where less competitive plants can establish. %
+---
+% Card 99 Itherstan Velari spread fungal spores on their fur and claws. Some of these fungi form beneficial associations with marsh grasses. %
+---
+% Card 100 The animal avoids certain trees because their roots release compounds that irritate Velari skin. Young animals learn these avoidance rules through observation. %
+---
+% Card 101 Velari territories overlap extensively. Instead of defending fixed borders, individuals defend particular dens, food caches, and nursery areas. %
+---
+% Card 102 Territory disputes are often settled through contests of endurance. The animals circle one another until one voluntarily leaves. %
+---
+% Card 103 A Velari may lend a den to a neighboring group during a flood. The lending group expects future access to another shelter. %
+---
+% Card 104 The species maintains emergency shelters that may remain unused for years. Their entrances are reopened after earthquakes, storms, or sudden fires. %
+---
+% Card 105 Itherstan Velari can navigate through darkness using memory, whisker currents, and scent. They rarely collide with familiar tunnel walls. %
+---
+% Card 106 The animal learns routes by traveling backward as well as forward. Backward movement is especially useful when carrying bulky food. %
+---
+% Card 107 Velari sometimes swim upside down beneath broad leaves. This posture allows them to inspect the water surface without exposing their eyes. %
+---
+% Card 108 The species can sleep while floating, using slow tail movements to maintain position. Sleeping individuals often anchor themselves to submerged roots. %
+---
+% Card 109 Itherstan Velari occasionally synchronize their sleep cycles. A group may alternate deep sleep with short periods of communal vigilance. %
+---
+% Card 110 The animal dreams visibly during deep sleep. Its whiskers twitch, paws flex, and throat produces faint hunting sounds. %
+---
+% Card 111 Velari juveniles are more likely than adults to sleep in exposed locations. Adults gradually teach them to choose safer resting places. %
+---
+% Card 112 The species experiences strong individual differences in temperament. Some adults are bold explorers, while others avoid unfamiliar water for years. %
+---
+% Card 113 Itherstan Velari show evidence of mourning-related appetite loss. Companions may bring food and remain nearby until the bereaved animal resumes eating. %
+---
+% Card 114 A Velari may alter its behavior after observing a companion’s injury. It can avoid the cause of the injury without experiencing the danger firsthand. %
+---
+% Card 115 The species appears to understand when another individual is unable to see a hidden object. It may then guide that individual using sound or touch. %
+---
+% Card 116 Velari sometimes deceive one another about food caches. A false digging display can cause a rival to search in the wrong location. %
+---
+% Card 117 Deception is not always selfish. An adult may create a false trail to draw a predator away from juveniles. %
+---
+% Card 118 Itherstan Velari may cooperate with a companion while competing against that same companion later. Relationships are situational rather than permanently cooperative or hostile. %
+---
+% Card 119 The species has been observed changing alliances within a single day. These changes depend on food availability, danger, and caregiving needs. %
+---
+% Card 120 Velari communities sometimes hold prolonged periods of collective quiet. These silences appear after major disturbances and may help individuals reassess social conditions. %
+---
+% Card 121 The animal can learn the names of familiar companions when names are represented by distinctive call sequences. It responds differently when a name is altered. %
+---
+% Card 122 Itherstan Velari may invent new call combinations for unusual objects. Other individuals can adopt these combinations within a few encounters. %
+---
+% Card 123 Young Velari practice vocalization by singing into hollow reeds. The reeds distort the sounds and encourage experimentation. %
+---
+% Card 124 The species can hear low-frequency vibrations through its jawbone. This allows it to detect distant movement through wet ground. %
+---
+% Card 125 Velari communication includes deliberate silence. Remaining silent near a companion may signal trust, concentration, or an invitation to rest. %
+---
+% Card 126 Itherstan Velari sometimes sleep in a loose circle with their heads facing outward. This arrangement provides protection while leaving the center warm. %
+---
+% Card 127 The species has no universal mating display. Individuals may use gifts, songs, cooperative hunts, or prolonged grooming to express interest. %
+---
+% Card 128 Velari courtship can involve several participants without producing a permanent pair. Social bonds formed during courtship may continue independently afterward. %
+---
+% Card 129 Reproductive roles are behaviorally flexible within Itherstan Velari groups. Caregiving and protection are not consistently associated with one sex. %
+---
+% Card 130 Some adults assist in raising young without producing offspring themselves. These helpers may become central members of the household. %
+---
+% Card 131 Velari newborns are born with pale, almost translucent fur. Their adult coloration develops gradually as they begin swimming. %
+---
+% Card 132 Juvenile Itherstan Velari have oversized paws and whiskers. These proportions improve sensory learning but make early movement awkward. %
+---
+% Card 133 Mothers and other caregivers carry infants by a loose fold of skin behind the shoulders. Older juveniles may ride on an adult’s back during long crossings. %
+---
+% Card 134 A Velari infant can recognize the scent of its den before opening its eyes. Familiar den odors reduce distress during handling. %
+---
+% Card 135 Young Itherstan Velari begin experimenting with solid food by chewing softened reeds. Their first successful prey are usually slow-moving aquatic larvae. %
+---
+% Card 136 Juveniles practice social negotiation by requesting food from multiple adults. Adults vary their responses, teaching persistence without guaranteeing success. %
+---
+% Card 137 The species reaches physical maturity before completing social maturity. Older adults continue teaching younger animals even after they are capable of independent survival. %
+---
+% Card 138 Itherstan Velari may change social roles throughout life. A hunter can become a nursery guardian, and a solitary adult can later become a community leader. %
+---
+% Card 139 The animal’s lifespan can exceed three decades in stable wetlands. Individuals living in harsh environments generally mature faster and age earlier. %
+---
+% Card 140 Elder Velari retain specialized knowledge of abandoned waterways. During droughts, younger animals follow elders to hidden springs. %
+---
+% Card 141 The species can remember seasonal landmarks without relying on a fixed annual schedule. It responds more strongly to environmental cues than to calendar-like timing. %
+---
+% Card 142 Itherstan Velari respond to changes in atmospheric pressure before major storms. They often reinforce dens or move young to higher chambers. %
+---
+% Card 143 The animal may deliberately flood part of its own den. Controlled flooding removes parasites and refreshes stagnant air. %
+---
+% Card 144 Velari use crushed aromatic leaves as insect repellent. The leaves are rubbed into fur, bedding, and the fur of juveniles. %
+---
+% Card 145 The species occasionally bathes in mineral mud. After drying, it scrapes the mud away against rough bark, removing parasites and loose fur. %
+---
+% Card 146 Itherstan Velari have a strong attraction to rhythmic vibrations. Dripping water, tapping stones, and distant machinery can draw them from hiding. %
+---
+% Card 147 The animal can become habituated to repeated harmless noises but remains alert to changes in rhythm. Sudden irregular patterns often trigger investigation. %
+---
+% Card 148 Velari groups may alter their routes around human structures without abandoning the surrounding wetland. Their flexibility allows them to exploit bridges, culverts, and drainage channels. %
+---
+% Card 149 Itherstan Velari are important ecosystem engineers because their tunnels, channels, and digging redistribute water and nutrients. Numerous smaller species use abandoned Velari structures. %
+---
+% Card 150 The defining feature of the Itherstan Velari is behavioral flexibility. Its survival depends less on one specialized strategy than on its ability to invent, imitate, negotiate, and adapt. %
