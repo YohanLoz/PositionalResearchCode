@@ -1,0 +1,996 @@
+{
+  "model": "openai/gpt-5.6-luna",
+  "provider": "openai",
+  "attempts": [
+    {
+      "condition_id": "q2-n120-a02-p012",
+      "attempted_at": "2026-09-11T18:17:46.772211+00:00",
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 4025,
+        "total_tokens": 4030,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0010121,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.0010061,
+          "upstream_inference_cost": 0.0010121
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4022,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q2-n120-a09-p108",
+      "attempted_at": "2026-09-11T18:17:48.567289+00:00",
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 4032,
+        "total_tokens": 4037,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.00101385,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.00100785,
+          "upstream_inference_cost": 0.00101385
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4029,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q2-n120-a04-p012",
+      "attempted_at": "2026-09-11T18:17:49.973169+00:00",
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 3991,
+        "total_tokens": 3996,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0010036,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.0009976,
+          "upstream_inference_cost": 0.0010036
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3988,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q2-n120-a09-p012",
+      "attempted_at": "2026-09-11T18:17:51.020820+00:00",
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 4032,
+        "total_tokens": 4037,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.00101385,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.00100785,
+          "upstream_inference_cost": 0.00101385
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4029,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q2-n120-a10-p060",
+      "attempted_at": "2026-09-11T18:17:52.084089+00:00",
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 4032,
+        "total_tokens": 4037,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.00101385,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.00100785,
+          "upstream_inference_cost": 0.00101385
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4029,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q2-n120-a08-p108",
+      "attempted_at": "2026-09-11T18:17:53.318619+00:00",
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 4000,
+        "total_tokens": 4005,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.00100585,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.00099985,
+          "upstream_inference_cost": 0.00100585
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3997,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q2-n120-a08-p060",
+      "attempted_at": "2026-09-11T18:17:54.789832+00:00",
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 4000,
+        "total_tokens": 4005,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.00100585,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.00099985,
+          "upstream_inference_cost": 0.00100585
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3997,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q2-n120-a03-p060",
+      "attempted_at": "2026-09-11T18:17:56.337897+00:00",
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 4023,
+        "total_tokens": 4028,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0010116,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.0010056,
+          "upstream_inference_cost": 0.0010116
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4020,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q2-n120-a07-p108",
+      "attempted_at": "2026-09-11T18:17:57.441943+00:00",
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 4023,
+        "total_tokens": 4028,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0010116,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.0010056,
+          "upstream_inference_cost": 0.0010116
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4020,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q2-n120-a10-p108",
+      "attempted_at": "2026-09-11T18:17:58.769730+00:00",
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 4032,
+        "total_tokens": 4037,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.00101385,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.00100785,
+          "upstream_inference_cost": 0.00101385
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4029,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q2-n120-a10-p012",
+      "attempted_at": "2026-09-11T18:17:59.936806+00:00",
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 4032,
+        "total_tokens": 4037,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.00101385,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.00100785,
+          "upstream_inference_cost": 0.00101385
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4029,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q2-n120-a03-p012",
+      "attempted_at": "2026-09-11T18:18:01.057464+00:00",
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 4023,
+        "total_tokens": 4028,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0010116,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.0010056,
+          "upstream_inference_cost": 0.0010116
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4020,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q2-n120-a01-p060",
+      "attempted_at": "2026-09-11T18:18:02.560758+00:00",
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 4016,
+        "total_tokens": 4021,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.00100985,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.00100385,
+          "upstream_inference_cost": 0.00100985
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4013,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q2-n120-a07-p012",
+      "attempted_at": "2026-09-11T18:18:03.704284+00:00",
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 4023,
+        "total_tokens": 4028,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0010116,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.0010056,
+          "upstream_inference_cost": 0.0010116
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4020,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q2-n120-a05-p012",
+      "attempted_at": "2026-09-11T18:18:05.065160+00:00",
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 4029,
+        "total_tokens": 4034,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0010131,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.0010071,
+          "upstream_inference_cost": 0.0010131
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4026,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q2-n120-a06-p108",
+      "attempted_at": "2026-09-11T18:18:06.236611+00:00",
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 3997,
+        "total_tokens": 4002,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0010051,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.0009991,
+          "upstream_inference_cost": 0.0010051
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3994,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q2-n120-a02-p060",
+      "attempted_at": "2026-09-11T18:18:07.963276+00:00",
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 4025,
+        "total_tokens": 4030,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0010121,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.0010061,
+          "upstream_inference_cost": 0.0010121
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4022,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q2-n120-a03-p108",
+      "attempted_at": "2026-09-11T18:18:09.037582+00:00",
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 4023,
+        "total_tokens": 4028,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0010116,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.0010056,
+          "upstream_inference_cost": 0.0010116
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4020,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q2-n120-a06-p012",
+      "attempted_at": "2026-09-11T18:18:10.320309+00:00",
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 3997,
+        "total_tokens": 4002,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0010051,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.0009991,
+          "upstream_inference_cost": 0.0010051
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3994,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q2-n120-a04-p060",
+      "attempted_at": "2026-09-11T18:18:11.607743+00:00",
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 3991,
+        "total_tokens": 3996,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0010036,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.0009976,
+          "upstream_inference_cost": 0.0010036
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3988,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q2-n120-a05-p060",
+      "attempted_at": "2026-09-11T18:18:12.900336+00:00",
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 4029,
+        "total_tokens": 4034,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0010131,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.0010071,
+          "upstream_inference_cost": 0.0010131
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4026,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q2-n120-a06-p060",
+      "attempted_at": "2026-09-11T18:18:14.813597+00:00",
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 3997,
+        "total_tokens": 4002,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0010051,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.0009991,
+          "upstream_inference_cost": 0.0010051
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3994,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q2-n120-a02-p108",
+      "attempted_at": "2026-09-11T18:18:17.009894+00:00",
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 4025,
+        "total_tokens": 4030,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0010121,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.0010061,
+          "upstream_inference_cost": 0.0010121
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4022,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q2-n120-a08-p012",
+      "attempted_at": "2026-09-11T18:18:18.052020+00:00",
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 4000,
+        "total_tokens": 4005,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.00100585,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.00099985,
+          "upstream_inference_cost": 0.00100585
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3997,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q2-n120-a01-p108",
+      "attempted_at": "2026-09-11T18:18:19.399258+00:00",
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 4016,
+        "total_tokens": 4021,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.00100985,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.00100385,
+          "upstream_inference_cost": 0.00100985
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4013,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q2-n120-a05-p108",
+      "attempted_at": "2026-09-11T18:18:21.170728+00:00",
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 4029,
+        "total_tokens": 4034,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0010131,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.0010071,
+          "upstream_inference_cost": 0.0010131
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4026,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q2-n120-a01-p012",
+      "attempted_at": "2026-09-11T18:18:22.510483+00:00",
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 4016,
+        "total_tokens": 4021,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.00100985,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.00100385,
+          "upstream_inference_cost": 0.00100985
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4013,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q2-n120-a04-p108",
+      "attempted_at": "2026-09-11T18:18:23.824395+00:00",
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 3991,
+        "total_tokens": 3996,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0010036,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.0009976,
+          "upstream_inference_cost": 0.0010036
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3988,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q2-n120-a07-p060",
+      "attempted_at": "2026-09-11T18:18:25.101122+00:00",
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 4023,
+        "total_tokens": 4028,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0010116,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.0010056,
+          "upstream_inference_cost": 0.0010116
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4020,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q2-n120-a09-p060",
+      "attempted_at": "2026-09-11T18:18:26.177421+00:00",
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 4032,
+        "total_tokens": 4037,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.00101385,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.00100785,
+          "upstream_inference_cost": 0.00101385
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4029,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    }
+  ]
+}
