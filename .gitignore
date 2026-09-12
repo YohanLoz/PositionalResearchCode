@@ -8,8 +8,13 @@ output/*
 !output/cards.txt
 !output/q1-conditions.json
 !output/q1-results.json
+!output/q1-timed-results.json
 !output/q2-n80-conditions.json
 !output/q2-n80-results.json
+!output/q2-n80-timed-results.json
 !output/q2-n120-conditions.json
 !output/q2-n120-results.json
+!output/q2-n120-timed-results.json
+!output/q3-conditions.json
+!output/q3-results.json
 tmp/

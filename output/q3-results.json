@@ -1,0 +1,2138 @@
+{
+  "model": "openai/gpt-5.6-luna",
+  "provider": "openai",
+  "response_time_measurement": "Wall-clock time around the OpenRouter API request.",
+  "attempts": [
+    {
+      "condition_id": "q3-a05-p36-neutral",
+      "attempted_at": "2026-09-12T14:58:35.558680+00:00",
+      "response_time_seconds": 1.424782,
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "outcome": "accepted_only",
+      "neutral_correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 1399,
+        "total_tokens": 1404,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0003556,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.0003496,
+          "upstream_inference_cost": 0.0003556
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1396,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a05-p04-conflict",
+      "attempted_at": "2026-09-12T14:58:36.985492+00:00",
+      "response_time_seconds": 0.944425,
+      "response": "March and November; the cards conflict.",
+      "recognized_months": [
+        "march",
+        "november"
+      ],
+      "outcome": "both_or_conflict",
+      "neutral_correct": null,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 12,
+        "prompt_tokens": 1397,
+        "total_tokens": 1409,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0003635,
+        "cost_details": {
+          "upstream_inference_completions_cost": 1.44e-05,
+          "upstream_inference_prompt_cost": 0.0003491,
+          "upstream_inference_cost": 0.0003635
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1394,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a05-p04-neutral",
+      "attempted_at": "2026-09-12T14:58:37.931085+00:00",
+      "response_time_seconds": 1.277177,
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "outcome": "accepted_only",
+      "neutral_correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 1399,
+        "total_tokens": 1404,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0003556,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.0003496,
+          "upstream_inference_cost": 0.0003556
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1396,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a04-p04-conflict",
+      "attempted_at": "2026-09-12T14:58:39.209465+00:00",
+      "response_time_seconds": 0.922864,
+      "response": "March and November — the cards conflict.",
+      "recognized_months": [
+        "march",
+        "november"
+      ],
+      "outcome": "both_or_conflict",
+      "neutral_correct": null,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 12,
+        "prompt_tokens": 1381,
+        "total_tokens": 1393,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0003595,
+        "cost_details": {
+          "upstream_inference_completions_cost": 1.44e-05,
+          "upstream_inference_prompt_cost": 0.0003451,
+          "upstream_inference_cost": 0.0003595
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1378,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a02-p36-conflict",
+      "attempted_at": "2026-09-12T14:58:40.133607+00:00",
+      "response_time_seconds": 0.917209,
+      "response": "March and November; the cards conflict.",
+      "recognized_months": [
+        "march",
+        "november"
+      ],
+      "outcome": "both_or_conflict",
+      "neutral_correct": null,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 12,
+        "prompt_tokens": 1353,
+        "total_tokens": 1365,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0003525,
+        "cost_details": {
+          "upstream_inference_completions_cost": 1.44e-05,
+          "upstream_inference_prompt_cost": 0.0003381,
+          "upstream_inference_cost": 0.0003525
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1350,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a10-p20-conflict",
+      "attempted_at": "2026-09-12T14:58:41.052347+00:00",
+      "response_time_seconds": 2.357343,
+      "response": "November and March — the cards conflict.",
+      "recognized_months": [
+        "march",
+        "november"
+      ],
+      "outcome": "both_or_conflict",
+      "neutral_correct": null,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 12,
+        "prompt_tokens": 1361,
+        "total_tokens": 1373,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0003545,
+        "cost_details": {
+          "upstream_inference_completions_cost": 1.44e-05,
+          "upstream_inference_prompt_cost": 0.0003401,
+          "upstream_inference_cost": 0.0003545
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1358,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a06-p04-neutral",
+      "attempted_at": "2026-09-12T14:58:43.411057+00:00",
+      "response_time_seconds": 0.983132,
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "outcome": "accepted_only",
+      "neutral_correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 1371,
+        "total_tokens": 1376,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0003486,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.0003426,
+          "upstream_inference_cost": 0.0003486
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1368,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a08-p36-neutral",
+      "attempted_at": "2026-09-12T14:58:44.395579+00:00",
+      "response_time_seconds": 0.980398,
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "outcome": "accepted_only",
+      "neutral_correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 1376,
+        "total_tokens": 1381,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.00034985,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.00034385,
+          "upstream_inference_cost": 0.00034985
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1373,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a04-p20-neutral",
+      "attempted_at": "2026-09-12T14:58:45.377574+00:00",
+      "response_time_seconds": 1.555706,
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "outcome": "accepted_only",
+      "neutral_correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 1383,
+        "total_tokens": 1388,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0003516,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.0003456,
+          "upstream_inference_cost": 0.0003516
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1380,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a09-p36-conflict",
+      "attempted_at": "2026-09-12T14:58:46.934902+00:00",
+      "response_time_seconds": 1.080072,
+      "response": "November and March; the cards conflict.",
+      "recognized_months": [
+        "march",
+        "november"
+      ],
+      "outcome": "both_or_conflict",
+      "neutral_correct": null,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 12,
+        "prompt_tokens": 1349,
+        "total_tokens": 1361,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0003515,
+        "cost_details": {
+          "upstream_inference_completions_cost": 1.44e-05,
+          "upstream_inference_prompt_cost": 0.0003371,
+          "upstream_inference_cost": 0.0003515
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1346,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a09-p20-conflict",
+      "attempted_at": "2026-09-12T14:58:48.016394+00:00",
+      "response_time_seconds": 1.030264,
+      "response": "November and March; the cards conflict.",
+      "recognized_months": [
+        "march",
+        "november"
+      ],
+      "outcome": "both_or_conflict",
+      "neutral_correct": null,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 12,
+        "prompt_tokens": 1349,
+        "total_tokens": 1361,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0003515,
+        "cost_details": {
+          "upstream_inference_completions_cost": 1.44e-05,
+          "upstream_inference_prompt_cost": 0.0003371,
+          "upstream_inference_cost": 0.0003515
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1346,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a01-p36-neutral",
+      "attempted_at": "2026-09-12T14:58:49.048163+00:00",
+      "response_time_seconds": 1.029929,
+      "response": "November and March; the cards conflict.",
+      "recognized_months": [
+        "march",
+        "november"
+      ],
+      "outcome": "both_or_conflict",
+      "neutral_correct": false,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 12,
+        "prompt_tokens": 1400,
+        "total_tokens": 1412,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.00036425,
+        "cost_details": {
+          "upstream_inference_completions_cost": 1.44e-05,
+          "upstream_inference_prompt_cost": 0.00034985,
+          "upstream_inference_cost": 0.00036425
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1397,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a06-p04-conflict",
+      "attempted_at": "2026-09-12T14:58:50.079485+00:00",
+      "response_time_seconds": 1.1112,
+      "response": "March and November; the cards conflict.",
+      "recognized_months": [
+        "march",
+        "november"
+      ],
+      "outcome": "both_or_conflict",
+      "neutral_correct": null,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 12,
+        "prompt_tokens": 1369,
+        "total_tokens": 1381,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0003565,
+        "cost_details": {
+          "upstream_inference_completions_cost": 1.44e-05,
+          "upstream_inference_prompt_cost": 0.0003421,
+          "upstream_inference_cost": 0.0003565
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1366,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a02-p20-conflict",
+      "attempted_at": "2026-09-12T14:58:51.192932+00:00",
+      "response_time_seconds": 1.020821,
+      "response": "March and November; the cards conflict.",
+      "recognized_months": [
+        "march",
+        "november"
+      ],
+      "outcome": "both_or_conflict",
+      "neutral_correct": null,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 12,
+        "prompt_tokens": 1353,
+        "total_tokens": 1365,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0003525,
+        "cost_details": {
+          "upstream_inference_completions_cost": 1.44e-05,
+          "upstream_inference_prompt_cost": 0.0003381,
+          "upstream_inference_cost": 0.0003525
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1350,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a03-p04-conflict",
+      "attempted_at": "2026-09-12T14:58:52.215398+00:00",
+      "response_time_seconds": 0.918175,
+      "response": "March and November; the cards conflict.",
+      "recognized_months": [
+        "march",
+        "november"
+      ],
+      "outcome": "both_or_conflict",
+      "neutral_correct": null,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 12,
+        "prompt_tokens": 1389,
+        "total_tokens": 1401,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0003615,
+        "cost_details": {
+          "upstream_inference_completions_cost": 1.44e-05,
+          "upstream_inference_prompt_cost": 0.0003471,
+          "upstream_inference_cost": 0.0003615
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1386,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a01-p36-conflict",
+      "attempted_at": "2026-09-12T14:58:53.136248+00:00",
+      "response_time_seconds": 1.569193,
+      "response": "March and November — the cards conflict.",
+      "recognized_months": [
+        "march",
+        "november"
+      ],
+      "outcome": "both_or_conflict",
+      "neutral_correct": null,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 12,
+        "prompt_tokens": 1398,
+        "total_tokens": 1410,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.00036375,
+        "cost_details": {
+          "upstream_inference_completions_cost": 1.44e-05,
+          "upstream_inference_prompt_cost": 0.00034935,
+          "upstream_inference_cost": 0.00036375
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1395,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a10-p04-conflict",
+      "attempted_at": "2026-09-12T14:58:54.707218+00:00",
+      "response_time_seconds": 2.016692,
+      "response": "November and March — the cards conflict.",
+      "recognized_months": [
+        "march",
+        "november"
+      ],
+      "outcome": "both_or_conflict",
+      "neutral_correct": null,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 1361,
+        "total_tokens": 1395,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 20
+        },
+        "cost": 0.0003809,
+        "cost_details": {
+          "upstream_inference_completions_cost": 4.08e-05,
+          "upstream_inference_prompt_cost": 0.0003401,
+          "upstream_inference_cost": 0.0003809
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1358,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a03-p36-conflict",
+      "attempted_at": "2026-09-12T14:58:56.725512+00:00",
+      "response_time_seconds": 0.885369,
+      "response": "March and November — the cards conflict.",
+      "recognized_months": [
+        "march",
+        "november"
+      ],
+      "outcome": "both_or_conflict",
+      "neutral_correct": null,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 12,
+        "prompt_tokens": 1389,
+        "total_tokens": 1401,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0003615,
+        "cost_details": {
+          "upstream_inference_completions_cost": 1.44e-05,
+          "upstream_inference_prompt_cost": 0.0003471,
+          "upstream_inference_cost": 0.0003615
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1386,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a02-p04-conflict",
+      "attempted_at": "2026-09-12T14:58:57.612834+00:00",
+      "response_time_seconds": 0.96951,
+      "response": "March and November; the cards conflict.",
+      "recognized_months": [
+        "march",
+        "november"
+      ],
+      "outcome": "both_or_conflict",
+      "neutral_correct": null,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 12,
+        "prompt_tokens": 1353,
+        "total_tokens": 1365,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0003525,
+        "cost_details": {
+          "upstream_inference_completions_cost": 1.44e-05,
+          "upstream_inference_prompt_cost": 0.0003381,
+          "upstream_inference_cost": 0.0003525
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1350,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a07-p04-conflict",
+      "attempted_at": "2026-09-12T14:58:58.583884+00:00",
+      "response_time_seconds": 2.07763,
+      "response": "March and November — the cards conflict.",
+      "recognized_months": [
+        "march",
+        "november"
+      ],
+      "outcome": "both_or_conflict",
+      "neutral_correct": null,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 12,
+        "prompt_tokens": 1384,
+        "total_tokens": 1396,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.00036025,
+        "cost_details": {
+          "upstream_inference_completions_cost": 1.44e-05,
+          "upstream_inference_prompt_cost": 0.00034585,
+          "upstream_inference_cost": 0.00036025
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1381,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a03-p36-neutral",
+      "attempted_at": "2026-09-12T14:59:00.663290+00:00",
+      "response_time_seconds": 0.992551,
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "outcome": "accepted_only",
+      "neutral_correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 1391,
+        "total_tokens": 1396,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0003536,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.0003476,
+          "upstream_inference_cost": 0.0003536
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1388,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a08-p20-neutral",
+      "attempted_at": "2026-09-12T14:59:01.657689+00:00",
+      "response_time_seconds": 1.105907,
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "outcome": "accepted_only",
+      "neutral_correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 1376,
+        "total_tokens": 1381,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.00034985,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.00034385,
+          "upstream_inference_cost": 0.00034985
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1373,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a01-p20-neutral",
+      "attempted_at": "2026-09-12T14:59:02.765320+00:00",
+      "response_time_seconds": 1.070013,
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "outcome": "accepted_only",
+      "neutral_correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 1400,
+        "total_tokens": 1405,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.00035585,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.00034985,
+          "upstream_inference_cost": 0.00035585
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1397,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a07-p20-neutral",
+      "attempted_at": "2026-09-12T14:59:03.836881+00:00",
+      "response_time_seconds": 0.799087,
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "outcome": "accepted_only",
+      "neutral_correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 1386,
+        "total_tokens": 1391,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.00035235,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.00034635,
+          "upstream_inference_cost": 0.00035235
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1383,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a10-p20-neutral",
+      "attempted_at": "2026-09-12T14:59:04.637630+00:00",
+      "response_time_seconds": 1.17144,
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "outcome": "accepted_only",
+      "neutral_correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 1363,
+        "total_tokens": 1368,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0003466,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.0003406,
+          "upstream_inference_cost": 0.0003466
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1360,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a01-p04-conflict",
+      "attempted_at": "2026-09-12T14:59:05.810716+00:00",
+      "response_time_seconds": 0.935634,
+      "response": "March and November; the cards conflict.",
+      "recognized_months": [
+        "march",
+        "november"
+      ],
+      "outcome": "both_or_conflict",
+      "neutral_correct": null,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 12,
+        "prompt_tokens": 1398,
+        "total_tokens": 1410,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.00036375,
+        "cost_details": {
+          "upstream_inference_completions_cost": 1.44e-05,
+          "upstream_inference_prompt_cost": 0.00034935,
+          "upstream_inference_cost": 0.00036375
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1395,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a06-p36-conflict",
+      "attempted_at": "2026-09-12T14:59:06.747649+00:00",
+      "response_time_seconds": 1.027226,
+      "response": "November and March — the cards conflict.",
+      "recognized_months": [
+        "march",
+        "november"
+      ],
+      "outcome": "both_or_conflict",
+      "neutral_correct": null,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 12,
+        "prompt_tokens": 1369,
+        "total_tokens": 1381,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0003565,
+        "cost_details": {
+          "upstream_inference_completions_cost": 1.44e-05,
+          "upstream_inference_prompt_cost": 0.0003421,
+          "upstream_inference_cost": 0.0003565
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1366,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a03-p20-conflict",
+      "attempted_at": "2026-09-12T14:59:07.776471+00:00",
+      "response_time_seconds": 0.970931,
+      "response": "March and November; the cards conflict.",
+      "recognized_months": [
+        "march",
+        "november"
+      ],
+      "outcome": "both_or_conflict",
+      "neutral_correct": null,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 12,
+        "prompt_tokens": 1389,
+        "total_tokens": 1401,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0003615,
+        "cost_details": {
+          "upstream_inference_completions_cost": 1.44e-05,
+          "upstream_inference_prompt_cost": 0.0003471,
+          "upstream_inference_cost": 0.0003615
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1386,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a02-p20-neutral",
+      "attempted_at": "2026-09-12T14:59:08.749149+00:00",
+      "response_time_seconds": 0.975089,
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "outcome": "accepted_only",
+      "neutral_correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 1355,
+        "total_tokens": 1360,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0003446,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.0003386,
+          "upstream_inference_cost": 0.0003446
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1352,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a10-p36-conflict",
+      "attempted_at": "2026-09-12T14:59:09.726106+00:00",
+      "response_time_seconds": 1.327524,
+      "response": "March and November; the cards conflict.",
+      "recognized_months": [
+        "march",
+        "november"
+      ],
+      "outcome": "both_or_conflict",
+      "neutral_correct": null,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 28,
+        "prompt_tokens": 1361,
+        "total_tokens": 1389,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 14
+        },
+        "cost": 0.0003737,
+        "cost_details": {
+          "upstream_inference_completions_cost": 3.36e-05,
+          "upstream_inference_prompt_cost": 0.0003401,
+          "upstream_inference_cost": 0.0003737
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1358,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a05-p20-conflict",
+      "attempted_at": "2026-09-12T14:59:11.055723+00:00",
+      "response_time_seconds": 1.282743,
+      "response": "March and November; the cards conflict.",
+      "recognized_months": [
+        "march",
+        "november"
+      ],
+      "outcome": "both_or_conflict",
+      "neutral_correct": null,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 12,
+        "prompt_tokens": 1397,
+        "total_tokens": 1409,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0003635,
+        "cost_details": {
+          "upstream_inference_completions_cost": 1.44e-05,
+          "upstream_inference_prompt_cost": 0.0003491,
+          "upstream_inference_cost": 0.0003635
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1394,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a09-p04-conflict",
+      "attempted_at": "2026-09-12T14:59:12.341140+00:00",
+      "response_time_seconds": 0.919182,
+      "response": "November and March — the cards conflict.",
+      "recognized_months": [
+        "march",
+        "november"
+      ],
+      "outcome": "both_or_conflict",
+      "neutral_correct": null,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 12,
+        "prompt_tokens": 1349,
+        "total_tokens": 1361,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0003515,
+        "cost_details": {
+          "upstream_inference_completions_cost": 1.44e-05,
+          "upstream_inference_prompt_cost": 0.0003371,
+          "upstream_inference_cost": 0.0003515
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1346,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a06-p20-neutral",
+      "attempted_at": "2026-09-12T14:59:13.262489+00:00",
+      "response_time_seconds": 1.457796,
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "outcome": "accepted_only",
+      "neutral_correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 1371,
+        "total_tokens": 1376,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0003486,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.0003426,
+          "upstream_inference_cost": 0.0003486
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1368,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a07-p36-conflict",
+      "attempted_at": "2026-09-12T14:59:14.722597+00:00",
+      "response_time_seconds": 1.941079,
+      "response": "March and November — the cards conflict.",
+      "recognized_months": [
+        "march",
+        "november"
+      ],
+      "outcome": "both_or_conflict",
+      "neutral_correct": null,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 28,
+        "prompt_tokens": 1384,
+        "total_tokens": 1412,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 14
+        },
+        "cost": 0.00037945,
+        "cost_details": {
+          "upstream_inference_completions_cost": 3.36e-05,
+          "upstream_inference_prompt_cost": 0.00034585,
+          "upstream_inference_cost": 0.00037945
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1381,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a02-p04-neutral",
+      "attempted_at": "2026-09-12T14:59:16.665805+00:00",
+      "response_time_seconds": 1.014479,
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "outcome": "accepted_only",
+      "neutral_correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 1355,
+        "total_tokens": 1360,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0003446,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.0003386,
+          "upstream_inference_cost": 0.0003446
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1352,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a03-p20-neutral",
+      "attempted_at": "2026-09-12T14:59:17.682000+00:00",
+      "response_time_seconds": 2.894408,
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "outcome": "accepted_only",
+      "neutral_correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 64,
+        "prompt_tokens": 1391,
+        "total_tokens": 1455,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 57
+        },
+        "cost": 0.0004244,
+        "cost_details": {
+          "upstream_inference_completions_cost": 7.68e-05,
+          "upstream_inference_prompt_cost": 0.0003476,
+          "upstream_inference_cost": 0.0004244
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1388,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a04-p20-conflict",
+      "attempted_at": "2026-09-12T14:59:20.578385+00:00",
+      "response_time_seconds": 1.128997,
+      "response": "March and November — the cards conflict.",
+      "recognized_months": [
+        "march",
+        "november"
+      ],
+      "outcome": "both_or_conflict",
+      "neutral_correct": null,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 12,
+        "prompt_tokens": 1381,
+        "total_tokens": 1393,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0003595,
+        "cost_details": {
+          "upstream_inference_completions_cost": 1.44e-05,
+          "upstream_inference_prompt_cost": 0.0003451,
+          "upstream_inference_cost": 0.0003595
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1378,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a02-p36-neutral",
+      "attempted_at": "2026-09-12T14:59:21.708948+00:00",
+      "response_time_seconds": 0.889785,
+      "response": "November.",
+      "recognized_months": [
+        "november"
+      ],
+      "outcome": "accepted_only",
+      "neutral_correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 6,
+        "prompt_tokens": 1355,
+        "total_tokens": 1361,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0003458,
+        "cost_details": {
+          "upstream_inference_completions_cost": 7.2e-06,
+          "upstream_inference_prompt_cost": 0.0003386,
+          "upstream_inference_cost": 0.0003458
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1352,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a04-p36-conflict",
+      "attempted_at": "2026-09-12T14:59:22.600546+00:00",
+      "response_time_seconds": 1.241148,
+      "response": "March and November — the cards conflict.",
+      "recognized_months": [
+        "march",
+        "november"
+      ],
+      "outcome": "both_or_conflict",
+      "neutral_correct": null,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 12,
+        "prompt_tokens": 1381,
+        "total_tokens": 1393,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0003595,
+        "cost_details": {
+          "upstream_inference_completions_cost": 1.44e-05,
+          "upstream_inference_prompt_cost": 0.0003451,
+          "upstream_inference_cost": 0.0003595
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1378,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a01-p20-conflict",
+      "attempted_at": "2026-09-12T14:59:23.843698+00:00",
+      "response_time_seconds": 0.936586,
+      "response": "March and November — the cards conflict.",
+      "recognized_months": [
+        "march",
+        "november"
+      ],
+      "outcome": "both_or_conflict",
+      "neutral_correct": null,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 12,
+        "prompt_tokens": 1398,
+        "total_tokens": 1410,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.00036375,
+        "cost_details": {
+          "upstream_inference_completions_cost": 1.44e-05,
+          "upstream_inference_prompt_cost": 0.00034935,
+          "upstream_inference_cost": 0.00036375
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1395,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a08-p20-conflict",
+      "attempted_at": "2026-09-12T14:59:24.781828+00:00",
+      "response_time_seconds": 1.226678,
+      "response": "November and March — the cards conflict.",
+      "recognized_months": [
+        "march",
+        "november"
+      ],
+      "outcome": "both_or_conflict",
+      "neutral_correct": null,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 28,
+        "prompt_tokens": 1374,
+        "total_tokens": 1402,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 14
+        },
+        "cost": 0.00037695,
+        "cost_details": {
+          "upstream_inference_completions_cost": 3.36e-05,
+          "upstream_inference_prompt_cost": 0.00034335,
+          "upstream_inference_cost": 0.00037695
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1371,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a06-p36-neutral",
+      "attempted_at": "2026-09-12T14:59:26.011023+00:00",
+      "response_time_seconds": 0.900683,
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "outcome": "accepted_only",
+      "neutral_correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 1371,
+        "total_tokens": 1376,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0003486,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.0003426,
+          "upstream_inference_cost": 0.0003486
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1368,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a03-p04-neutral",
+      "attempted_at": "2026-09-12T14:59:26.913792+00:00",
+      "response_time_seconds": 0.933773,
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "outcome": "accepted_only",
+      "neutral_correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 1391,
+        "total_tokens": 1396,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0003536,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.0003476,
+          "upstream_inference_cost": 0.0003536
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1388,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a08-p04-conflict",
+      "attempted_at": "2026-09-12T14:59:27.849325+00:00",
+      "response_time_seconds": 0.925517,
+      "response": "November and March — the cards conflict.",
+      "recognized_months": [
+        "march",
+        "november"
+      ],
+      "outcome": "both_or_conflict",
+      "neutral_correct": null,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 12,
+        "prompt_tokens": 1374,
+        "total_tokens": 1386,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.00035775,
+        "cost_details": {
+          "upstream_inference_completions_cost": 1.44e-05,
+          "upstream_inference_prompt_cost": 0.00034335,
+          "upstream_inference_cost": 0.00035775
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1371,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a06-p20-conflict",
+      "attempted_at": "2026-09-12T14:59:28.777389+00:00",
+      "response_time_seconds": 0.989925,
+      "response": "November and March; the cards conflict.",
+      "recognized_months": [
+        "march",
+        "november"
+      ],
+      "outcome": "both_or_conflict",
+      "neutral_correct": null,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 12,
+        "prompt_tokens": 1369,
+        "total_tokens": 1381,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0003565,
+        "cost_details": {
+          "upstream_inference_completions_cost": 1.44e-05,
+          "upstream_inference_prompt_cost": 0.0003421,
+          "upstream_inference_cost": 0.0003565
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1366,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a04-p04-neutral",
+      "attempted_at": "2026-09-12T14:59:29.769327+00:00",
+      "response_time_seconds": 1.422936,
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "outcome": "accepted_only",
+      "neutral_correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 1383,
+        "total_tokens": 1388,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0003516,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.0003456,
+          "upstream_inference_cost": 0.0003516
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1380,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a07-p36-neutral",
+      "attempted_at": "2026-09-12T14:59:31.193112+00:00",
+      "response_time_seconds": 0.972349,
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "outcome": "accepted_only",
+      "neutral_correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 1386,
+        "total_tokens": 1391,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.00035235,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.00034635,
+          "upstream_inference_cost": 0.00035235
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1383,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a09-p04-neutral",
+      "attempted_at": "2026-09-12T14:59:32.168096+00:00",
+      "response_time_seconds": 2.475683,
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "outcome": "accepted_only",
+      "neutral_correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 34,
+        "prompt_tokens": 1351,
+        "total_tokens": 1385,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 27
+        },
+        "cost": 0.0003784,
+        "cost_details": {
+          "upstream_inference_completions_cost": 4.08e-05,
+          "upstream_inference_prompt_cost": 0.0003376,
+          "upstream_inference_cost": 0.0003784
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1348,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a09-p20-neutral",
+      "attempted_at": "2026-09-12T14:59:34.645878+00:00",
+      "response_time_seconds": 2.129902,
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "outcome": "accepted_only",
+      "neutral_correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 46,
+        "prompt_tokens": 1351,
+        "total_tokens": 1397,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 39
+        },
+        "cost": 0.0003928,
+        "cost_details": {
+          "upstream_inference_completions_cost": 5.52e-05,
+          "upstream_inference_prompt_cost": 0.0003376,
+          "upstream_inference_cost": 0.0003928
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1348,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a10-p04-neutral",
+      "attempted_at": "2026-09-12T14:59:36.778294+00:00",
+      "response_time_seconds": 1.00529,
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "outcome": "accepted_only",
+      "neutral_correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 1363,
+        "total_tokens": 1368,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0003466,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.0003406,
+          "upstream_inference_cost": 0.0003466
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1360,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a09-p36-neutral",
+      "attempted_at": "2026-09-12T14:59:37.785217+00:00",
+      "response_time_seconds": 0.814828,
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "outcome": "accepted_only",
+      "neutral_correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 1351,
+        "total_tokens": 1356,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0003436,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.0003376,
+          "upstream_inference_cost": 0.0003436
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1348,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a01-p04-neutral",
+      "attempted_at": "2026-09-12T14:59:38.602174+00:00",
+      "response_time_seconds": 0.859695,
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "outcome": "accepted_only",
+      "neutral_correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 1400,
+        "total_tokens": 1405,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.00035585,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.00034985,
+          "upstream_inference_cost": 0.00035585
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1397,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a10-p36-neutral",
+      "attempted_at": "2026-09-12T14:59:39.463986+00:00",
+      "response_time_seconds": 1.009842,
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "outcome": "accepted_only",
+      "neutral_correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 1363,
+        "total_tokens": 1368,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0003466,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.0003406,
+          "upstream_inference_cost": 0.0003466
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1360,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a07-p04-neutral",
+      "attempted_at": "2026-09-12T14:59:40.474501+00:00",
+      "response_time_seconds": 0.985258,
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "outcome": "accepted_only",
+      "neutral_correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 1386,
+        "total_tokens": 1391,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.00035235,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.00034635,
+          "upstream_inference_cost": 0.00035235
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1383,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a04-p36-neutral",
+      "attempted_at": "2026-09-12T14:59:41.461246+00:00",
+      "response_time_seconds": 0.927524,
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "outcome": "accepted_only",
+      "neutral_correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 1383,
+        "total_tokens": 1388,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0003516,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.0003456,
+          "upstream_inference_cost": 0.0003516
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1380,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a08-p04-neutral",
+      "attempted_at": "2026-09-12T14:59:42.391337+00:00",
+      "response_time_seconds": 1.226116,
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "outcome": "accepted_only",
+      "neutral_correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 1376,
+        "total_tokens": 1381,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.00034985,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.00034385,
+          "upstream_inference_cost": 0.00034985
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1373,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a05-p36-conflict",
+      "attempted_at": "2026-09-12T14:59:43.619603+00:00",
+      "response_time_seconds": 0.991884,
+      "response": "March and November; the cards conflict.",
+      "recognized_months": [
+        "march",
+        "november"
+      ],
+      "outcome": "both_or_conflict",
+      "neutral_correct": null,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 12,
+        "prompt_tokens": 1397,
+        "total_tokens": 1409,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0003635,
+        "cost_details": {
+          "upstream_inference_completions_cost": 1.44e-05,
+          "upstream_inference_prompt_cost": 0.0003491,
+          "upstream_inference_cost": 0.0003635
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1394,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a07-p20-conflict",
+      "attempted_at": "2026-09-12T14:59:44.613821+00:00",
+      "response_time_seconds": 1.125816,
+      "response": "November and March — the cards conflict.",
+      "recognized_months": [
+        "march",
+        "november"
+      ],
+      "outcome": "both_or_conflict",
+      "neutral_correct": null,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 12,
+        "prompt_tokens": 1384,
+        "total_tokens": 1396,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.00036025,
+        "cost_details": {
+          "upstream_inference_completions_cost": 1.44e-05,
+          "upstream_inference_prompt_cost": 0.00034585,
+          "upstream_inference_cost": 0.00036025
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1381,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a08-p36-conflict",
+      "attempted_at": "2026-09-12T14:59:45.742803+00:00",
+      "response_time_seconds": 1.483133,
+      "response": "The cards conflict: **November and March**.",
+      "recognized_months": [
+        "march",
+        "november"
+      ],
+      "outcome": "both_or_conflict",
+      "neutral_correct": null,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 14,
+        "prompt_tokens": 1374,
+        "total_tokens": 1388,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.00036015,
+        "cost_details": {
+          "upstream_inference_completions_cost": 1.68e-05,
+          "upstream_inference_prompt_cost": 0.00034335,
+          "upstream_inference_cost": 0.00036015
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1371,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "condition_id": "q3-a05-p20-neutral",
+      "attempted_at": "2026-09-12T14:59:47.229377+00:00",
+      "response_time_seconds": 1.099528,
+      "response": "November",
+      "recognized_months": [
+        "november"
+      ],
+      "outcome": "accepted_only",
+      "neutral_correct": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 1399,
+        "total_tokens": 1404,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 0.0003556,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 0.0003496,
+          "upstream_inference_cost": 0.0003556
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1396,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    }
+  ]
+}

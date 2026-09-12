@@ -6,6 +6,7 @@ import re
 from datetime import datetime, timezone
 from pathlib import Path
 from random import Random
+from time import perf_counter
 
 from dotenv import load_dotenv
 from openrouter import OpenRouter
@@ -167,13 +168,19 @@ def createConditions(cards, contextSize):
     return conditions
 
 
-def getOutputFiles(contextSize):
+def getOutputFiles(contextSize, timedRepeat):
     if contextSize == 40:
         conditionsFile = Path("output/q1-conditions.json")
-        resultsFile = Path("output/q1-results.json")
+        if timedRepeat:
+            resultsFile = Path("output/q1-timed-results.json")
+        else:
+            resultsFile = Path("output/q1-results.json")
     else:
         conditionsFile = Path(f"output/q2-n{contextSize}-conditions.json")
-        resultsFile = Path(f"output/q2-n{contextSize}-results.json")
+        if timedRepeat:
+            resultsFile = Path(f"output/q2-n{contextSize}-timed-results.json")
+        else:
+            resultsFile = Path(f"output/q2-n{contextSize}-results.json")
 
     return conditionsFile, resultsFile
 
@@ -215,6 +222,9 @@ def runConditions(conditions, resultsFile):
         results = {
             "model": model,
             "provider": MODEL_PROVIDER,
+            "response_time_measurement": (
+                "Wall-clock time around the OpenRouter API request."
+            ),
             "attempts": [],
         }
 
@@ -236,6 +246,7 @@ def runConditions(conditions, resultsFile):
 
         print(f"Running {conditionId}")
         attemptedAt = datetime.now(timezone.utc).isoformat()
+        requestStarted = perf_counter()
 
         try:
             response = client.chat.send(
@@ -257,6 +268,7 @@ def runConditions(conditions, resultsFile):
                     "allow_fallbacks": False,
                 },
             )
+            responseTimeSeconds = perf_counter() - requestStarted
 
             answer = str(response.choices[0].message.content or "").strip()
             isCorrect, recognizedMonths = scoreAnswer(answer)
@@ -264,6 +276,7 @@ def runConditions(conditions, resultsFile):
             attempt = {
                 "condition_id": conditionId,
                 "attempted_at": attemptedAt,
+                "response_time_seconds": round(responseTimeSeconds, 6),
                 "response": answer,
                 "recognized_months": recognizedMonths,
                 "correct": isCorrect,
@@ -279,9 +292,11 @@ def runConditions(conditions, resultsFile):
             saveJson(resultsFile, results)
 
         except Exception as error:
+            responseTimeSeconds = perf_counter() - requestStarted
             failedAttempt = {
                 "condition_id": conditionId,
                 "attempted_at": attemptedAt,
+                "response_time_seconds": round(responseTimeSeconds, 6),
                 "error": f"{type(error).__name__}: {error}",
             }
             results["attempts"].append(failedAttempt)
@@ -292,6 +307,7 @@ def runConditions(conditions, resultsFile):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--prepare-only", action="store_true")
+    parser.add_argument("--timed-repeat", action="store_true")
     parser.add_argument(
         "--size",
         type=int,
@@ -304,7 +320,10 @@ def main():
     validateCards(cards)
 
     conditions = createConditions(cards, arguments.size)
-    conditionsFile, resultsFile = getOutputFiles(arguments.size)
+    conditionsFile, resultsFile = getOutputFiles(
+        arguments.size,
+        arguments.timed_repeat,
+    )
 
     saveJson(conditionsFile, conditions)
     print(f"Prepared {len(conditions)} conditions in {conditionsFile}")
