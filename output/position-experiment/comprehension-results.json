@@ -1,0 +1,555 @@
+{
+  "created_at": "2026-09-21T14:04:44.777196+00:00",
+  "conditions_sha256": "05245d024bcf194280d4b6a3713d2aa1701e11de93b329899d824fd95fbbfb4e",
+  "models": [
+    {
+      "label": "GPT-5.6 Luna",
+      "model": "openai/gpt-5.6-luna",
+      "provider": "openai",
+      "context_window_tokens": 1050000,
+      "reasoning_effort": "none"
+    },
+    {
+      "label": "Gemma 4 31B Instruct",
+      "model": "google/gemma-4-31b-it",
+      "provider": "deepinfra",
+      "quantizations": [
+        "fp8"
+      ],
+      "context_window_tokens": 262144
+    },
+    {
+      "label": "GLM 5.3 Flash",
+      "model": "z-ai/glm-5.3-flash",
+      "provider": "gmicloud",
+      "quantizations": [
+        "fp8"
+      ],
+      "context_window_tokens": 1048576,
+      "reasoning_effort": "low"
+    }
+  ],
+  "settings": {
+    "seed": 20260921,
+    "max_completion_tokens": 2048
+  },
+  "attempts": [
+    {
+      "model_label": "GLM 5.3 Flash",
+      "model": "z-ai/glm-5.3-flash",
+      "provider": "gmicloud",
+      "condition_id": "p04-target-only",
+      "item_id": "p04",
+      "context_size_cards": 1,
+      "target_position_name": "only",
+      "target_position_card": 1,
+      "expected_answer": "January",
+      "attempted_at": "2026-09-21T14:04:44.812907+00:00",
+      "response_time_seconds": 3.611944,
+      "response": "January",
+      "recognized_months": [
+        "january"
+      ],
+      "correct": true,
+      "format_compliant": true,
+      "returned_model": "z-ai/glm-5.3-flash",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 3,
+        "prompt_tokens": 64,
+        "total_tokens": 67,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 5.55e-06,
+        "cost_details": {
+          "upstream_inference_completions_cost": 7.5e-07,
+          "upstream_inference_prompt_cost": 4.8e-06,
+          "upstream_inference_cost": 5.55e-06
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "model_label": "Gemma 4 31B Instruct",
+      "model": "google/gemma-4-31b-it",
+      "provider": "deepinfra",
+      "condition_id": "p02-target-only",
+      "item_id": "p02",
+      "context_size_cards": 1,
+      "target_position_name": "only",
+      "target_position_card": 1,
+      "expected_answer": "September",
+      "attempted_at": "2026-09-21T14:04:48.428843+00:00",
+      "response_time_seconds": 0.689933,
+      "response": "September",
+      "recognized_months": [
+        "september"
+      ],
+      "correct": true,
+      "format_compliant": true,
+      "returned_model": "google/gemma-4-31b-it",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 2,
+        "prompt_tokens": 64,
+        "total_tokens": 66,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 9.08e-06,
+        "cost_details": {
+          "upstream_inference_completions_cost": 7.6e-07,
+          "upstream_inference_prompt_cost": 8.32e-06,
+          "upstream_inference_cost": 9.08e-06
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "model_label": "Gemma 4 31B Instruct",
+      "model": "google/gemma-4-31b-it",
+      "provider": "deepinfra",
+      "condition_id": "p01-target-only",
+      "item_id": "p01",
+      "context_size_cards": 1,
+      "target_position_name": "only",
+      "target_position_card": 1,
+      "expected_answer": "March",
+      "attempted_at": "2026-09-21T14:04:49.120072+00:00",
+      "response_time_seconds": 0.731041,
+      "response": "March",
+      "recognized_months": [
+        "march"
+      ],
+      "correct": true,
+      "format_compliant": true,
+      "returned_model": "google/gemma-4-31b-it",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 2,
+        "prompt_tokens": 64,
+        "total_tokens": 66,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 9.08e-06,
+        "cost_details": {
+          "upstream_inference_completions_cost": 7.6e-07,
+          "upstream_inference_prompt_cost": 8.32e-06,
+          "upstream_inference_cost": 9.08e-06
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "model_label": "Gemma 4 31B Instruct",
+      "model": "google/gemma-4-31b-it",
+      "provider": "deepinfra",
+      "condition_id": "p04-target-only",
+      "item_id": "p04",
+      "context_size_cards": 1,
+      "target_position_name": "only",
+      "target_position_card": 1,
+      "expected_answer": "January",
+      "attempted_at": "2026-09-21T14:04:49.853564+00:00",
+      "response_time_seconds": 0.630451,
+      "response": "January",
+      "recognized_months": [
+        "january"
+      ],
+      "correct": true,
+      "format_compliant": true,
+      "returned_model": "google/gemma-4-31b-it",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 2,
+        "prompt_tokens": 62,
+        "total_tokens": 64,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 8.82e-06,
+        "cost_details": {
+          "upstream_inference_completions_cost": 7.6e-07,
+          "upstream_inference_prompt_cost": 8.06e-06,
+          "upstream_inference_cost": 8.82e-06
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "model_label": "GPT-5.6 Luna",
+      "model": "openai/gpt-5.6-luna",
+      "provider": "openai",
+      "condition_id": "p02-target-only",
+      "item_id": "p02",
+      "context_size_cards": 1,
+      "target_position_name": "only",
+      "target_position_card": 1,
+      "expected_answer": "September",
+      "attempted_at": "2026-09-21T14:04:50.485019+00:00",
+      "response_time_seconds": 1.210904,
+      "response": "September",
+      "recognized_months": [
+        "september"
+      ],
+      "correct": true,
+      "format_compliant": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 54,
+        "total_tokens": 59,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 1.68e-05,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 1.08e-05,
+          "upstream_inference_cost": 1.68e-05
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "model_label": "GPT-5.6 Luna",
+      "model": "openai/gpt-5.6-luna",
+      "provider": "openai",
+      "condition_id": "p03-target-only",
+      "item_id": "p03",
+      "context_size_cards": 1,
+      "target_position_name": "only",
+      "target_position_card": 1,
+      "expected_answer": "May",
+      "attempted_at": "2026-09-21T14:04:51.696996+00:00",
+      "response_time_seconds": 1.354192,
+      "response": "May",
+      "recognized_months": [
+        "may"
+      ],
+      "correct": true,
+      "format_compliant": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 56,
+        "total_tokens": 61,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 1.72e-05,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 1.12e-05,
+          "upstream_inference_cost": 1.72e-05
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "model_label": "GPT-5.6 Luna",
+      "model": "openai/gpt-5.6-luna",
+      "provider": "openai",
+      "condition_id": "p04-target-only",
+      "item_id": "p04",
+      "context_size_cards": 1,
+      "target_position_name": "only",
+      "target_position_card": 1,
+      "expected_answer": "January",
+      "attempted_at": "2026-09-21T14:04:53.053981+00:00",
+      "response_time_seconds": 1.428262,
+      "response": "January",
+      "recognized_months": [
+        "january"
+      ],
+      "correct": true,
+      "format_compliant": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 58,
+        "total_tokens": 63,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 1.76e-05,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 1.16e-05,
+          "upstream_inference_cost": 1.76e-05
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "model_label": "GLM 5.3 Flash",
+      "model": "z-ai/glm-5.3-flash",
+      "provider": "gmicloud",
+      "condition_id": "p03-target-only",
+      "item_id": "p03",
+      "context_size_cards": 1,
+      "target_position_name": "only",
+      "target_position_card": 1,
+      "expected_answer": "May",
+      "attempted_at": "2026-09-21T14:04:54.484661+00:00",
+      "response_time_seconds": 3.76498,
+      "response": "May",
+      "recognized_months": [
+        "may"
+      ],
+      "correct": true,
+      "format_compliant": true,
+      "returned_model": "z-ai/glm-5.3-flash",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 3,
+        "prompt_tokens": 62,
+        "total_tokens": 65,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 5.4e-06,
+        "cost_details": {
+          "upstream_inference_completions_cost": 7.5e-07,
+          "upstream_inference_prompt_cost": 4.65e-06,
+          "upstream_inference_cost": 5.4e-06
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "model_label": "GPT-5.6 Luna",
+      "model": "openai/gpt-5.6-luna",
+      "provider": "openai",
+      "condition_id": "p01-target-only",
+      "item_id": "p01",
+      "context_size_cards": 1,
+      "target_position_name": "only",
+      "target_position_card": 1,
+      "expected_answer": "March",
+      "attempted_at": "2026-09-21T14:04:58.251208+00:00",
+      "response_time_seconds": 1.685084,
+      "response": "March",
+      "recognized_months": [
+        "march"
+      ],
+      "correct": true,
+      "format_compliant": true,
+      "returned_model": "openai/gpt-5.6-luna",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 5,
+        "prompt_tokens": 54,
+        "total_tokens": 59,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 1.68e-05,
+        "cost_details": {
+          "upstream_inference_completions_cost": 6e-06,
+          "upstream_inference_prompt_cost": 1.08e-05,
+          "upstream_inference_cost": 1.68e-05
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "model_label": "GLM 5.3 Flash",
+      "model": "z-ai/glm-5.3-flash",
+      "provider": "gmicloud",
+      "condition_id": "p02-target-only",
+      "item_id": "p02",
+      "context_size_cards": 1,
+      "target_position_name": "only",
+      "target_position_card": 1,
+      "expected_answer": "September",
+      "attempted_at": "2026-09-21T14:04:59.937970+00:00",
+      "response_time_seconds": 3.723838,
+      "response": "September",
+      "recognized_months": [
+        "september"
+      ],
+      "correct": true,
+      "format_compliant": true,
+      "returned_model": "z-ai/glm-5.3-flash",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 3,
+        "prompt_tokens": 62,
+        "total_tokens": 65,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 5.4e-06,
+        "cost_details": {
+          "upstream_inference_completions_cost": 7.5e-07,
+          "upstream_inference_prompt_cost": 4.65e-06,
+          "upstream_inference_cost": 5.4e-06
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "model_label": "Gemma 4 31B Instruct",
+      "model": "google/gemma-4-31b-it",
+      "provider": "deepinfra",
+      "condition_id": "p03-target-only",
+      "item_id": "p03",
+      "context_size_cards": 1,
+      "target_position_name": "only",
+      "target_position_card": 1,
+      "expected_answer": "May",
+      "attempted_at": "2026-09-21T14:05:03.663472+00:00",
+      "response_time_seconds": 0.871918,
+      "response": "May",
+      "recognized_months": [
+        "may"
+      ],
+      "correct": true,
+      "format_compliant": true,
+      "returned_model": "google/gemma-4-31b-it",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 2,
+        "prompt_tokens": 66,
+        "total_tokens": 68,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 9.34e-06,
+        "cost_details": {
+          "upstream_inference_completions_cost": 7.6e-07,
+          "upstream_inference_prompt_cost": 8.58e-06,
+          "upstream_inference_cost": 9.34e-06
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    },
+    {
+      "model_label": "GLM 5.3 Flash",
+      "model": "z-ai/glm-5.3-flash",
+      "provider": "gmicloud",
+      "condition_id": "p01-target-only",
+      "item_id": "p01",
+      "context_size_cards": 1,
+      "target_position_name": "only",
+      "target_position_card": 1,
+      "expected_answer": "March",
+      "attempted_at": "2026-09-21T14:05:04.536777+00:00",
+      "response_time_seconds": 2.620472,
+      "response": "March",
+      "recognized_months": [
+        "march"
+      ],
+      "correct": true,
+      "format_compliant": true,
+      "returned_model": "z-ai/glm-5.3-flash",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 3,
+        "prompt_tokens": 60,
+        "total_tokens": 63,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0
+        },
+        "cost": 5.25e-06,
+        "cost_details": {
+          "upstream_inference_completions_cost": 7.5e-07,
+          "upstream_inference_prompt_cost": 4.5e-06,
+          "upstream_inference_cost": 5.25e-06
+        },
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "video_tokens": 0
+        }
+      }
+    }
+  ],
+  "experiment": "position-comprehension-check-v1"
+}
