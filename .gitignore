@@ -17,4 +17,10 @@ output/*
 !output/q2-n120-timed-results.json
 !output/q3-conditions.json
 !output/q3-results.json
+!output/position-experiment/
+output/position-experiment/*
+!output/position-experiment/conditions.json
+!output/position-experiment/results.json
+!output/position-experiment/comprehension-conditions.json
+!output/position-experiment/comprehension-results.json
 tmp/

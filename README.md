@@ -25,6 +25,11 @@ python run_position_test.py --size 80 --timed-repeat
 python run_position_test.py --size 120 --timed-repeat
 python run_conflict_test.py --prepare-only
 python run_conflict_test.py
+python run_position_experiment.py
+python run_position_experiment.py --run --comprehension-test \
+  --models position-experiment-models.json
+python run_position_experiment.py --run \
+  --models position-experiment-models.json
 ```
 
 The generator makes one streaming API call and saves 150 Itherstan Velari flashcards to `output/cards.txt`. Dots show received text while the cards are generated. The request has a three-minute timeout. Existing output is not overwritten.
@@ -36,3 +41,5 @@ The 80-card and 120-card commands repeat the same ten arrangements for the secon
 `--timed-repeat` runs the same position conditions and writes new result files instead of changing the original results. Each attempt includes the time between sending the OpenRouter request and receiving its response. This is API response time, not the model provider's internal inference time.
 
 The conflict test creates 30 matched pairs with 40 cards each. Every pair has a neutral version that rejects March and a conflict version that presents March as the ovulation month. The November answer card appears at positions 4, 20 and 36. The companion card appears before the answer card in five arrangements and after it in five arrangements. Responses are classified as November only, March only, both or an acknowledged conflict, or neither.
+
+The three-model position experiment uses four questions, 500, 2,000 and 5,000 cards, and early, middle and late target positions. Running the script without `--run` prepares and validates the prompts without making API requests. The frozen conditions and completed responses are stored in `output/position-experiment/`.
