@@ -12,4 +12,10 @@ output/position-experiment/*
 !output/position-experiment/results.json
 !output/position-experiment/comprehension-conditions.json
 !output/position-experiment/comprehension-results.json
+!output/conflict-experiment/
+output/conflict-experiment/*
+!output/conflict-experiment/conditions.json
+!output/conflict-experiment/results.json
+!output/conflict-experiment/response-reviews.json
+!output/conflict-experiment/summary.json
 tmp/
