@@ -113,6 +113,21 @@ class ConflictExperimentTests(unittest.TestCase):
                 experiment.freeze_json(path, {'a': 2})
             self.assertEqual(json.loads(path.read_text()), {'a': 1})
 
+    def test_outcome_counts_keep_conflict_reports_separate(self):
+        rows = [
+            {'condition_type': 'agreement', 'classification': 'supported', 'conflict_reported': False, 'needs_review': False},
+            {'condition_type': 'conflict', 'classification': 'earlier', 'conflict_reported': True, 'needs_review': False},
+            {'condition_type': 'conflict', 'classification': 'later', 'conflict_reported': False, 'needs_review': False},
+            {'condition_type': 'conflict', 'classification': 'unresolved', 'conflict_reported': None, 'needs_review': True},
+        ]
+        counts = experiment.outcome_counts(rows)
+        self.assertEqual(counts['agreement']['classifications'], {'supported': 1})
+        self.assertEqual(counts['conflict']['responses'], 3)
+        self.assertEqual(counts['conflict']['classifications'], {'earlier': 1, 'later': 1, 'unresolved': 1})
+        self.assertEqual(counts['conflict']['conflict_reported'], 1)
+        self.assertEqual(counts['conflict']['pending_review'], 1)
+        self.assertEqual(experiment.outcome_counts([])['conflict']['responses'], 0)
+
     def test_budget_stops_before_excess_spending(self):
         for data in [{'limit': None, 'limit_remaining': 10}, {'limit': 10, 'limit_remaining': 9}, {'limit': 5, 'limit_remaining': 0.09}, {'limit': 5, 'limit_remaining': 4, 'limit_reset': 'daily'}]:
             with patch.object(experiment, 'api_request', return_value={'data': data}):

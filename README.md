@@ -80,4 +80,4 @@ Responses beyond bare month names require review in `response-reviews.json`. Eac
 - `output/conflict-experiment/conditions.json` contains all 48 conflict and agreement prompts.
 - `output/conflict-experiment/results.json` contains raw responses, request settings, timing and automatic scores.
 - `output/conflict-experiment/response-reviews.json` contains reviewed classifications for non-standard responses.
-- `output/conflict-experiment/summary.json` contains final classifications and totals derived from the raw responses and reviews.
+- `output/conflict-experiment/summary.json` contains final classifications, completion counts and recorded response costs derived from the raw responses and reviews. Failed attempts may have charges that are not available in their records.

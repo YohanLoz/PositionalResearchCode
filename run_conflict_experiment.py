@@ -247,6 +247,19 @@ def run(models, conditions):
     print(f"Completed {len(completed)}/144 responses.", flush=True)
 
 
+def outcome_counts(rows):
+    counts = {}
+    for kind in ("agreement", "conflict"):
+        subset = [r for r in rows if r["condition_type"] == kind]
+        counts[kind] = {
+            "responses": len(subset),
+            "classifications": dict(Counter(r["classification"] for r in subset)),
+            "conflict_reported": sum(r["conflict_reported"] is True for r in subset),
+            "pending_review": sum(r["needs_review"] for r in subset),
+        }
+    return counts
+
+
 def summarize(conditions):
     results = json.loads(RESULTS_FILE.read_text(encoding="utf-8"))
     if results["conditions_sha256"] != position.file_sha256(CONDITIONS_FILE):
@@ -303,16 +316,15 @@ def summarize(conditions):
     by_model = []
     for model in results["models"]:
         model_rows = [r for r in rows if r["model"] == model["model"]]
-        counts = {}
-        for kind in ("agreement", "conflict"):
-            subset = [r for r in model_rows if r["condition_type"] == kind]
-            counts[kind] = {
-                "responses": len(subset),
-                "classifications": dict(Counter(r["classification"] for r in subset)),
-                "conflict_reported": sum(r["conflict_reported"] is True for r in subset),
-                "pending_review": sum(r["needs_review"] for r in subset),
-            }
-        by_model.append({"model": model["model"], "label": model["label"], **counts})
+        pairs = {}
+        for pair in ("early-middle", "early-late", "middle-late"):
+            pairs[pair] = outcome_counts([r for r in model_rows if r["position_pair"] == pair])
+        by_model.append({
+            "model": model["model"],
+            "label": model["label"],
+            **outcome_counts(model_rows),
+            "by_position_pair": pairs,
+        })
     costs = [r["cost_usd"] for r in rows]
     summary = {
         "experiment": results["experiment"],
@@ -325,7 +337,7 @@ def summarize(conditions):
         "failed_attempts": len(results["attempts"]) - len(rows),
         "missing_model_condition_pairs": sorted(expected_keys - set(pair_keys)),
         "pending_review": pending,
-        "total_cost_usd": round(sum(costs), 9) if all(c is not None for c in costs) else None,
+        "recorded_response_cost_usd": round(sum(costs), 9) if all(c is not None for c in costs) else None,
         "by_model": by_model,
         "responses": rows,
     }
