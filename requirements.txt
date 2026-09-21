@@ -1,3 +1,2 @@
-reportlab>=4,<5
 openrouter
 python-dotenv>=1,<2

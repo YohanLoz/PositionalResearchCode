@@ -1,0 +1,62 @@
+[
+  {
+    "condition_id": "p01-target-only",
+    "item_id": "p01",
+    "question": "During which month does the Orvane begin nesting?",
+    "expected_answer": "March",
+    "context_size_cards": 1,
+    "target_position_name": "only",
+    "target_position_card": 1,
+    "target_position_fraction": 1.0,
+    "distractor_sha256": null,
+    "prompt_sha256": "584671446e675608cb39d7cf47eb2fa04ac515559f88012fc15b916aba30cd54",
+    "prompt_character_count": 218,
+    "estimated_input_tokens": 54,
+    "prompt": "Use only the flashcards below to answer the question. Return only the month name and no explanation.\n\n% Card 1 Contents %\nThe Orvane begins nesting in March.\n\nQuestion: During which month does the Orvane begin nesting?"
+  },
+  {
+    "condition_id": "p02-target-only",
+    "item_id": "p02",
+    "question": "During which month does the Talmeri start migrating north?",
+    "expected_answer": "September",
+    "context_size_cards": 1,
+    "target_position_name": "only",
+    "target_position_card": 1,
+    "target_position_fraction": 1.0,
+    "distractor_sha256": null,
+    "prompt_sha256": "303621226abb31462ed42ee881b71438120d751a010e8c3dfbc03fe7a4294f11",
+    "prompt_character_count": 240,
+    "estimated_input_tokens": 60,
+    "prompt": "Use only the flashcards below to answer the question. Return only the month name and no explanation.\n\n% Card 1 Contents %\nThe Talmeri starts migrating north in September.\n\nQuestion: During which month does the Talmeri start migrating north?"
+  },
+  {
+    "condition_id": "p03-target-only",
+    "item_id": "p03",
+    "question": "During which month does the Selkor shed its winter coat?",
+    "expected_answer": "May",
+    "context_size_cards": 1,
+    "target_position_name": "only",
+    "target_position_card": 1,
+    "target_position_fraction": 1.0,
+    "distractor_sha256": null,
+    "prompt_sha256": "7ef454577fe4fc0a0042b925fe4a54330d6524aa1e6e48eafae3a336601504b1",
+    "prompt_character_count": 230,
+    "estimated_input_tokens": 58,
+    "prompt": "Use only the flashcards below to answer the question. Return only the month name and no explanation.\n\n% Card 1 Contents %\nThe Selkor sheds its winter coat in May.\n\nQuestion: During which month does the Selkor shed its winter coat?"
+  },
+  {
+    "condition_id": "p04-target-only",
+    "item_id": "p04",
+    "question": "During which month does the Vireli enter hibernation?",
+    "expected_answer": "January",
+    "context_size_cards": 1,
+    "target_position_name": "only",
+    "target_position_card": 1,
+    "target_position_fraction": 1.0,
+    "distractor_sha256": null,
+    "prompt_sha256": "6ff5158fd4c428e72f5e657bac0dac8adc6091cf55791558f0e99851f22efb92",
+    "prompt_character_count": 228,
+    "estimated_input_tokens": 57,
+    "prompt": "Use only the flashcards below to answer the question. Return only the month name and no explanation.\n\n% Card 1 Contents %\nThe Vireli enters hibernation in January.\n\nQuestion: During which month does the Vireli enter hibernation?"
+  }
+]

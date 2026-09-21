@@ -1,0 +1,3299 @@
+{
+  "experiment": "conflict-position-experiment-v1",
+  "conditions_sha256": "add593c7871848f688576ef1f6b7a7b34117c0e3ae46f8d78ce692e8b11fc2dd",
+  "results_sha256": "66ea06ea1561d162742f8319fbedbb606b0421fbb9b183c3a38680f6652795c1",
+  "reviews_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+  "scoring_rules": {
+    "version": "conflict-v1",
+    "answer_selection": "Months offered as answers, excluding rejected or merely quoted months.",
+    "conflict_categories": [
+      "earlier",
+      "later",
+      "both",
+      "neither"
+    ],
+    "agreement_categories": [
+      "supported",
+      "other"
+    ],
+    "conflict_reported": "The response explicitly says the relevant cards disagree or contradict, or give incompatible answers. Uncertainty alone is not a conflict report.",
+    "manual_review": "Review every response other than a bare single month or a bare list of month names. Record selected months and explicit conflict reporting separately. Preserve ambiguous selections as unresolved.",
+    "accuracy": "Only agreement conditions have a uniquely supported month. Conflict conditions have no designated correct month.",
+    "format_compliance": "Exactly one month name, ignoring case and surrounding whitespace."
+  },
+  "expected_responses": 144,
+  "completed_responses": 144,
+  "failed_attempts": 2,
+  "missing_model_condition_pairs": [],
+  "pending_review": [],
+  "recorded_response_cost_usd": 3.40406636,
+  "by_model": [
+    {
+      "model": "openai/gpt-5.6-luna",
+      "label": "GPT-5.6 Luna",
+      "agreement": {
+        "responses": 24,
+        "classifications": {
+          "supported": 24
+        },
+        "conflict_reported": 0,
+        "pending_review": 0
+      },
+      "conflict": {
+        "responses": 24,
+        "classifications": {
+          "earlier": 23,
+          "later": 1
+        },
+        "conflict_reported": 0,
+        "pending_review": 0
+      },
+      "by_position_pair": {
+        "early-middle": {
+          "agreement": {
+            "responses": 8,
+            "classifications": {
+              "supported": 8
+            },
+            "conflict_reported": 0,
+            "pending_review": 0
+          },
+          "conflict": {
+            "responses": 8,
+            "classifications": {
+              "earlier": 7,
+              "later": 1
+            },
+            "conflict_reported": 0,
+            "pending_review": 0
+          }
+        },
+        "early-late": {
+          "agreement": {
+            "responses": 8,
+            "classifications": {
+              "supported": 8
+            },
+            "conflict_reported": 0,
+            "pending_review": 0
+          },
+          "conflict": {
+            "responses": 8,
+            "classifications": {
+              "earlier": 8
+            },
+            "conflict_reported": 0,
+            "pending_review": 0
+          }
+        },
+        "middle-late": {
+          "agreement": {
+            "responses": 8,
+            "classifications": {
+              "supported": 8
+            },
+            "conflict_reported": 0,
+            "pending_review": 0
+          },
+          "conflict": {
+            "responses": 8,
+            "classifications": {
+              "earlier": 8
+            },
+            "conflict_reported": 0,
+            "pending_review": 0
+          }
+        }
+      }
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "label": "Gemma 4 31B Instruct",
+      "agreement": {
+        "responses": 24,
+        "classifications": {
+          "supported": 22,
+          "other": 2
+        },
+        "conflict_reported": 0,
+        "pending_review": 0
+      },
+      "conflict": {
+        "responses": 24,
+        "classifications": {
+          "later": 17,
+          "earlier": 7
+        },
+        "conflict_reported": 0,
+        "pending_review": 0
+      },
+      "by_position_pair": {
+        "early-middle": {
+          "agreement": {
+            "responses": 8,
+            "classifications": {
+              "supported": 7,
+              "other": 1
+            },
+            "conflict_reported": 0,
+            "pending_review": 0
+          },
+          "conflict": {
+            "responses": 8,
+            "classifications": {
+              "earlier": 3,
+              "later": 5
+            },
+            "conflict_reported": 0,
+            "pending_review": 0
+          }
+        },
+        "early-late": {
+          "agreement": {
+            "responses": 8,
+            "classifications": {
+              "supported": 7,
+              "other": 1
+            },
+            "conflict_reported": 0,
+            "pending_review": 0
+          },
+          "conflict": {
+            "responses": 8,
+            "classifications": {
+              "later": 6,
+              "earlier": 2
+            },
+            "conflict_reported": 0,
+            "pending_review": 0
+          }
+        },
+        "middle-late": {
+          "agreement": {
+            "responses": 8,
+            "classifications": {
+              "supported": 8
+            },
+            "conflict_reported": 0,
+            "pending_review": 0
+          },
+          "conflict": {
+            "responses": 8,
+            "classifications": {
+              "later": 6,
+              "earlier": 2
+            },
+            "conflict_reported": 0,
+            "pending_review": 0
+          }
+        }
+      }
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "label": "GLM 5.3 Flash",
+      "agreement": {
+        "responses": 24,
+        "classifications": {
+          "supported": 24
+        },
+        "conflict_reported": 0,
+        "pending_review": 0
+      },
+      "conflict": {
+        "responses": 24,
+        "classifications": {
+          "later": 11,
+          "earlier": 13
+        },
+        "conflict_reported": 0,
+        "pending_review": 0
+      },
+      "by_position_pair": {
+        "early-middle": {
+          "agreement": {
+            "responses": 8,
+            "classifications": {
+              "supported": 8
+            },
+            "conflict_reported": 0,
+            "pending_review": 0
+          },
+          "conflict": {
+            "responses": 8,
+            "classifications": {
+              "later": 4,
+              "earlier": 4
+            },
+            "conflict_reported": 0,
+            "pending_review": 0
+          }
+        },
+        "early-late": {
+          "agreement": {
+            "responses": 8,
+            "classifications": {
+              "supported": 8
+            },
+            "conflict_reported": 0,
+            "pending_review": 0
+          },
+          "conflict": {
+            "responses": 8,
+            "classifications": {
+              "later": 6,
+              "earlier": 2
+            },
+            "conflict_reported": 0,
+            "pending_review": 0
+          }
+        },
+        "middle-late": {
+          "agreement": {
+            "responses": 8,
+            "classifications": {
+              "supported": 8
+            },
+            "conflict_reported": 0,
+            "pending_review": 0
+          },
+          "conflict": {
+            "responses": 8,
+            "classifications": {
+              "later": 1,
+              "earlier": 7
+            },
+            "conflict_reported": 0,
+            "pending_review": 0
+          }
+        }
+      }
+    }
+  ],
+  "responses": [
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "condition_id": "p02-n5000-early-late-BB",
+      "item_id": "p02",
+      "condition_type": "agreement",
+      "position_pair": "early-late",
+      "arrangement": "BB",
+      "mentioned_months": [
+        "march"
+      ],
+      "selected_months": [
+        "march"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.01004545,
+      "prompt_tokens": 133896,
+      "completion_tokens": 13
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "condition_id": "p02-n5000-middle-late-AA",
+      "item_id": "p02",
+      "condition_type": "agreement",
+      "position_pair": "middle-late",
+      "arrangement": "AA",
+      "mentioned_months": [
+        "september"
+      ],
+      "selected_months": [
+        "september"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.01005395,
+      "prompt_tokens": 133896,
+      "completion_tokens": 47
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "condition_id": "p04-n5000-early-late-AB",
+      "item_id": "p04",
+      "condition_type": "conflict",
+      "position_pair": "early-late",
+      "arrangement": "AB",
+      "mentioned_months": [
+        "january"
+      ],
+      "selected_months": [
+        "january"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "earlier",
+      "cost_usd": 0.03156235,
+      "prompt_tokens": 126226,
+      "completion_tokens": 5
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "condition_id": "p02-n5000-middle-late-BA",
+      "item_id": "p02",
+      "condition_type": "conflict",
+      "position_pair": "middle-late",
+      "arrangement": "BA",
+      "mentioned_months": [
+        "september"
+      ],
+      "selected_months": [
+        "september"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "later",
+      "cost_usd": 0.01011145,
+      "prompt_tokens": 133896,
+      "completion_tokens": 277
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "condition_id": "p01-n5000-middle-late-BB",
+      "item_id": "p01",
+      "condition_type": "agreement",
+      "position_pair": "middle-late",
+      "arrangement": "BB",
+      "mentioned_months": [
+        "september"
+      ],
+      "selected_months": [
+        "september"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.010041525,
+      "prompt_tokens": 133877,
+      "completion_tokens": 3
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "condition_id": "p03-n5000-early-middle-BB",
+      "item_id": "p03",
+      "condition_type": "agreement",
+      "position_pair": "early-middle",
+      "arrangement": "BB",
+      "mentioned_months": [
+        "january"
+      ],
+      "selected_months": [
+        "january"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.03155685,
+      "prompt_tokens": 126204,
+      "completion_tokens": 5
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "condition_id": "p03-n5000-early-middle-AB",
+      "item_id": "p03",
+      "condition_type": "conflict",
+      "position_pair": "early-middle",
+      "arrangement": "AB",
+      "mentioned_months": [
+        "may"
+      ],
+      "selected_months": [
+        "may"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "earlier",
+      "cost_usd": 0.03155685,
+      "prompt_tokens": 126204,
+      "completion_tokens": 5
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "condition_id": "p04-n5000-early-late-BA",
+      "item_id": "p04",
+      "condition_type": "conflict",
+      "position_pair": "early-late",
+      "arrangement": "BA",
+      "mentioned_months": [
+        "may"
+      ],
+      "selected_months": [
+        "may"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "earlier",
+      "cost_usd": 0.03156235,
+      "prompt_tokens": 126226,
+      "completion_tokens": 5
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "condition_id": "p03-n5000-early-late-BA",
+      "item_id": "p03",
+      "condition_type": "conflict",
+      "position_pair": "early-late",
+      "arrangement": "BA",
+      "mentioned_months": [
+        "january"
+      ],
+      "selected_months": [
+        "january"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "earlier",
+      "cost_usd": 0.03155685,
+      "prompt_tokens": 126204,
+      "completion_tokens": 5
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "condition_id": "p03-n5000-early-late-BB",
+      "item_id": "p03",
+      "condition_type": "agreement",
+      "position_pair": "early-late",
+      "arrangement": "BB",
+      "mentioned_months": [
+        "january"
+      ],
+      "selected_months": [
+        "january"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.04455967,
+      "prompt_tokens": 165033,
+      "completion_tokens": 1
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "condition_id": "p04-n5000-early-late-BA",
+      "item_id": "p04",
+      "condition_type": "conflict",
+      "position_pair": "early-late",
+      "arrangement": "BA",
+      "mentioned_months": [
+        "january"
+      ],
+      "selected_months": [
+        "january"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "later",
+      "cost_usd": 0.010078625,
+      "prompt_tokens": 133915,
+      "completion_tokens": 140
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "condition_id": "p04-n5000-middle-late-AA",
+      "item_id": "p04",
+      "condition_type": "agreement",
+      "position_pair": "middle-late",
+      "arrangement": "AA",
+      "mentioned_months": [
+        "january"
+      ],
+      "selected_months": [
+        "january"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.03156235,
+      "prompt_tokens": 126226,
+      "completion_tokens": 5
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "condition_id": "p02-n5000-middle-late-AB",
+      "item_id": "p02",
+      "condition_type": "conflict",
+      "position_pair": "middle-late",
+      "arrangement": "AB",
+      "mentioned_months": [
+        "march"
+      ],
+      "selected_months": [
+        "march"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "later",
+      "cost_usd": 0.04455562,
+      "prompt_tokens": 165018,
+      "completion_tokens": 1
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "condition_id": "p02-n5000-middle-late-AA",
+      "item_id": "p02",
+      "condition_type": "agreement",
+      "position_pair": "middle-late",
+      "arrangement": "AA",
+      "mentioned_months": [
+        "september"
+      ],
+      "selected_months": [
+        "september"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.0315536,
+      "prompt_tokens": 126191,
+      "completion_tokens": 5
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "condition_id": "p03-n5000-middle-late-BB",
+      "item_id": "p03",
+      "condition_type": "agreement",
+      "position_pair": "middle-late",
+      "arrangement": "BB",
+      "mentioned_months": [
+        "january"
+      ],
+      "selected_months": [
+        "january"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.04455967,
+      "prompt_tokens": 165033,
+      "completion_tokens": 1
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "condition_id": "p03-n5000-early-middle-BA",
+      "item_id": "p03",
+      "condition_type": "conflict",
+      "position_pair": "early-middle",
+      "arrangement": "BA",
+      "mentioned_months": [
+        "january"
+      ],
+      "selected_months": [
+        "january"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "earlier",
+      "cost_usd": 0.04455967,
+      "prompt_tokens": 165033,
+      "completion_tokens": 1
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "condition_id": "p03-n5000-early-middle-AA",
+      "item_id": "p03",
+      "condition_type": "agreement",
+      "position_pair": "early-middle",
+      "arrangement": "AA",
+      "mentioned_months": [
+        "may"
+      ],
+      "selected_months": [
+        "may"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.03155685,
+      "prompt_tokens": 126204,
+      "completion_tokens": 5
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "condition_id": "p03-n5000-middle-late-BB",
+      "item_id": "p03",
+      "condition_type": "agreement",
+      "position_pair": "middle-late",
+      "arrangement": "BB",
+      "mentioned_months": [
+        "january"
+      ],
+      "selected_months": [
+        "january"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.01006425,
+      "prompt_tokens": 133890,
+      "completion_tokens": 90
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "condition_id": "p01-n5000-early-middle-BA",
+      "item_id": "p01",
+      "condition_type": "conflict",
+      "position_pair": "early-middle",
+      "arrangement": "BA",
+      "mentioned_months": [
+        "march"
+      ],
+      "selected_months": [
+        "march"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "later",
+      "cost_usd": 0.04455589,
+      "prompt_tokens": 165019,
+      "completion_tokens": 1
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "condition_id": "p04-n5000-middle-late-BB",
+      "item_id": "p04",
+      "condition_type": "agreement",
+      "position_pair": "middle-late",
+      "arrangement": "BB",
+      "mentioned_months": [
+        "may"
+      ],
+      "selected_months": [
+        "may"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.03156235,
+      "prompt_tokens": 126226,
+      "completion_tokens": 5
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "condition_id": "p01-n5000-early-middle-BB",
+      "item_id": "p01",
+      "condition_type": "agreement",
+      "position_pair": "early-middle",
+      "arrangement": "BB",
+      "mentioned_months": [
+        "september"
+      ],
+      "selected_months": [
+        "september"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.03155335,
+      "prompt_tokens": 126190,
+      "completion_tokens": 5
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "condition_id": "p02-n5000-early-late-AB",
+      "item_id": "p02",
+      "condition_type": "conflict",
+      "position_pair": "early-late",
+      "arrangement": "AB",
+      "mentioned_months": [
+        "march"
+      ],
+      "selected_months": [
+        "march"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "later",
+      "cost_usd": 0.04455562,
+      "prompt_tokens": 165018,
+      "completion_tokens": 1
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "condition_id": "p01-n5000-early-late-BB",
+      "item_id": "p01",
+      "condition_type": "agreement",
+      "position_pair": "early-late",
+      "arrangement": "BB",
+      "mentioned_months": [
+        "september"
+      ],
+      "selected_months": [
+        "september"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.03155335,
+      "prompt_tokens": 126190,
+      "completion_tokens": 5
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "condition_id": "p02-n5000-early-middle-AB",
+      "item_id": "p02",
+      "condition_type": "conflict",
+      "position_pair": "early-middle",
+      "arrangement": "AB",
+      "mentioned_months": [
+        "march"
+      ],
+      "selected_months": [
+        "march"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "later",
+      "cost_usd": 0.0100997,
+      "prompt_tokens": 133896,
+      "completion_tokens": 230
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "condition_id": "p01-n5000-middle-late-AB",
+      "item_id": "p01",
+      "condition_type": "conflict",
+      "position_pair": "middle-late",
+      "arrangement": "AB",
+      "mentioned_months": [
+        "september"
+      ],
+      "selected_months": [
+        "september"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "later",
+      "cost_usd": 0.04455589,
+      "prompt_tokens": 165019,
+      "completion_tokens": 1
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "condition_id": "p01-n5000-early-middle-AB",
+      "item_id": "p01",
+      "condition_type": "conflict",
+      "position_pair": "early-middle",
+      "arrangement": "AB",
+      "mentioned_months": [
+        "september"
+      ],
+      "selected_months": [
+        "september"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "later",
+      "cost_usd": 0.010077025,
+      "prompt_tokens": 133877,
+      "completion_tokens": 145
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "condition_id": "p04-n5000-early-late-AB",
+      "item_id": "p04",
+      "condition_type": "conflict",
+      "position_pair": "early-late",
+      "arrangement": "AB",
+      "mentioned_months": [
+        "january"
+      ],
+      "selected_months": [
+        "january"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "earlier",
+      "cost_usd": 0.04455481,
+      "prompt_tokens": 165015,
+      "completion_tokens": 1
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "condition_id": "p04-n5000-early-middle-BA",
+      "item_id": "p04",
+      "condition_type": "conflict",
+      "position_pair": "early-middle",
+      "arrangement": "BA",
+      "mentioned_months": [
+        "january"
+      ],
+      "selected_months": [
+        "january"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "later",
+      "cost_usd": 0.04455481,
+      "prompt_tokens": 165015,
+      "completion_tokens": 1
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "condition_id": "p04-n5000-early-late-AB",
+      "item_id": "p04",
+      "condition_type": "conflict",
+      "position_pair": "early-late",
+      "arrangement": "AB",
+      "mentioned_months": [
+        "may"
+      ],
+      "selected_months": [
+        "may"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "later",
+      "cost_usd": 0.010129125,
+      "prompt_tokens": 133915,
+      "completion_tokens": 342
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "condition_id": "p02-n5000-middle-late-AA",
+      "item_id": "p02",
+      "condition_type": "agreement",
+      "position_pair": "middle-late",
+      "arrangement": "AA",
+      "mentioned_months": [
+        "september"
+      ],
+      "selected_months": [
+        "september"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.04455562,
+      "prompt_tokens": 165018,
+      "completion_tokens": 1
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "condition_id": "p04-n5000-early-late-BB",
+      "item_id": "p04",
+      "condition_type": "agreement",
+      "position_pair": "early-late",
+      "arrangement": "BB",
+      "mentioned_months": [
+        "may"
+      ],
+      "selected_months": [
+        "may"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.03156235,
+      "prompt_tokens": 126226,
+      "completion_tokens": 5
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "condition_id": "p01-n5000-early-middle-AA",
+      "item_id": "p01",
+      "condition_type": "agreement",
+      "position_pair": "early-middle",
+      "arrangement": "AA",
+      "mentioned_months": [
+        "march"
+      ],
+      "selected_months": [
+        "march"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.010041525,
+      "prompt_tokens": 133877,
+      "completion_tokens": 3
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "condition_id": "p01-n5000-middle-late-AA",
+      "item_id": "p01",
+      "condition_type": "agreement",
+      "position_pair": "middle-late",
+      "arrangement": "AA",
+      "mentioned_months": [
+        "march"
+      ],
+      "selected_months": [
+        "march"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.006156115,
+      "prompt_tokens": 133877,
+      "completion_tokens": 190
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "condition_id": "p01-n5000-middle-late-BA",
+      "item_id": "p01",
+      "condition_type": "conflict",
+      "position_pair": "middle-late",
+      "arrangement": "BA",
+      "mentioned_months": [
+        "september"
+      ],
+      "selected_months": [
+        "september"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "earlier",
+      "cost_usd": 0.03155335,
+      "prompt_tokens": 126190,
+      "completion_tokens": 5
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "condition_id": "p03-n5000-middle-late-AA",
+      "item_id": "p03",
+      "condition_type": "agreement",
+      "position_pair": "middle-late",
+      "arrangement": "AA",
+      "mentioned_months": [
+        "may"
+      ],
+      "selected_months": [
+        "may"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.03155685,
+      "prompt_tokens": 126204,
+      "completion_tokens": 5
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "condition_id": "p01-n5000-early-late-BA",
+      "item_id": "p01",
+      "condition_type": "conflict",
+      "position_pair": "early-late",
+      "arrangement": "BA",
+      "mentioned_months": [
+        "september"
+      ],
+      "selected_months": [
+        "september"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "earlier",
+      "cost_usd": 0.03155335,
+      "prompt_tokens": 126190,
+      "completion_tokens": 5
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "condition_id": "p04-n5000-middle-late-AA",
+      "item_id": "p04",
+      "condition_type": "agreement",
+      "position_pair": "middle-late",
+      "arrangement": "AA",
+      "mentioned_months": [
+        "january"
+      ],
+      "selected_months": [
+        "january"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.010047125,
+      "prompt_tokens": 133915,
+      "completion_tokens": 14
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "condition_id": "p02-n5000-middle-late-AB",
+      "item_id": "p02",
+      "condition_type": "conflict",
+      "position_pair": "middle-late",
+      "arrangement": "AB",
+      "mentioned_months": [
+        "september"
+      ],
+      "selected_months": [
+        "september"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "earlier",
+      "cost_usd": 0.01009195,
+      "prompt_tokens": 133896,
+      "completion_tokens": 199
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "condition_id": "p01-n5000-early-middle-BA",
+      "item_id": "p01",
+      "condition_type": "conflict",
+      "position_pair": "early-middle",
+      "arrangement": "BA",
+      "mentioned_months": [
+        "march"
+      ],
+      "selected_months": [
+        "march"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "later",
+      "cost_usd": 0.010075525,
+      "prompt_tokens": 133877,
+      "completion_tokens": 139
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "condition_id": "p02-n5000-early-middle-BA",
+      "item_id": "p02",
+      "condition_type": "conflict",
+      "position_pair": "early-middle",
+      "arrangement": "BA",
+      "mentioned_months": [
+        "march"
+      ],
+      "selected_months": [
+        "march"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "earlier",
+      "cost_usd": 0.0315536,
+      "prompt_tokens": 126191,
+      "completion_tokens": 5
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "condition_id": "p03-n5000-early-late-AB",
+      "item_id": "p03",
+      "condition_type": "conflict",
+      "position_pair": "early-late",
+      "arrangement": "AB",
+      "mentioned_months": [
+        "may"
+      ],
+      "selected_months": [
+        "may"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "earlier",
+      "cost_usd": 0.03155685,
+      "prompt_tokens": 126204,
+      "completion_tokens": 5
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "condition_id": "p01-n5000-early-middle-BA",
+      "item_id": "p01",
+      "condition_type": "conflict",
+      "position_pair": "early-middle",
+      "arrangement": "BA",
+      "mentioned_months": [
+        "september"
+      ],
+      "selected_months": [
+        "september"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "earlier",
+      "cost_usd": 0.03155335,
+      "prompt_tokens": 126190,
+      "completion_tokens": 5
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "condition_id": "p02-n5000-early-middle-AB",
+      "item_id": "p02",
+      "condition_type": "conflict",
+      "position_pair": "early-middle",
+      "arrangement": "AB",
+      "mentioned_months": [
+        "september"
+      ],
+      "selected_months": [
+        "september"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "earlier",
+      "cost_usd": 0.0315536,
+      "prompt_tokens": 126191,
+      "completion_tokens": 5
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "condition_id": "p03-n5000-middle-late-BA",
+      "item_id": "p03",
+      "condition_type": "conflict",
+      "position_pair": "middle-late",
+      "arrangement": "BA",
+      "mentioned_months": [
+        "january"
+      ],
+      "selected_months": [
+        "january"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "earlier",
+      "cost_usd": 0.02145505,
+      "prompt_tokens": 165033,
+      "completion_tokens": 2
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "condition_id": "p02-n5000-early-late-AA",
+      "item_id": "p02",
+      "condition_type": "agreement",
+      "position_pair": "early-late",
+      "arrangement": "AA",
+      "mentioned_months": [
+        "september"
+      ],
+      "selected_months": [
+        "september"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.0315536,
+      "prompt_tokens": 126191,
+      "completion_tokens": 5
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "condition_id": "p01-n5000-early-middle-AB",
+      "item_id": "p01",
+      "condition_type": "conflict",
+      "position_pair": "early-middle",
+      "arrangement": "AB",
+      "mentioned_months": [
+        "september"
+      ],
+      "selected_months": [
+        "september"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "later",
+      "cost_usd": 0.03155335,
+      "prompt_tokens": 126190,
+      "completion_tokens": 5
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "condition_id": "p03-n5000-early-middle-AB",
+      "item_id": "p03",
+      "condition_type": "conflict",
+      "position_pair": "early-middle",
+      "arrangement": "AB",
+      "mentioned_months": [
+        "may"
+      ],
+      "selected_months": [
+        "may"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "earlier",
+      "cost_usd": 0.010152,
+      "prompt_tokens": 133890,
+      "completion_tokens": 441
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "condition_id": "p03-n5000-early-late-AB",
+      "item_id": "p03",
+      "condition_type": "conflict",
+      "position_pair": "early-late",
+      "arrangement": "AB",
+      "mentioned_months": [
+        "may"
+      ],
+      "selected_months": [
+        "may"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "earlier",
+      "cost_usd": 0.01007925,
+      "prompt_tokens": 133890,
+      "completion_tokens": 150
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "condition_id": "p01-n5000-middle-late-AA",
+      "item_id": "p01",
+      "condition_type": "agreement",
+      "position_pair": "middle-late",
+      "arrangement": "AA",
+      "mentioned_months": [
+        "march"
+      ],
+      "selected_months": [
+        "march"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.03155335,
+      "prompt_tokens": 126190,
+      "completion_tokens": 5
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "condition_id": "p03-n5000-middle-late-BA",
+      "item_id": "p03",
+      "condition_type": "conflict",
+      "position_pair": "middle-late",
+      "arrangement": "BA",
+      "mentioned_months": [
+        "january"
+      ],
+      "selected_months": [
+        "january"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "earlier",
+      "cost_usd": 0.01008025,
+      "prompt_tokens": 133890,
+      "completion_tokens": 154
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "condition_id": "p02-n5000-early-late-AA",
+      "item_id": "p02",
+      "condition_type": "agreement",
+      "position_pair": "early-late",
+      "arrangement": "AA",
+      "mentioned_months": [
+        "september"
+      ],
+      "selected_months": [
+        "september"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.0214531,
+      "prompt_tokens": 165018,
+      "completion_tokens": 2
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "condition_id": "p04-n5000-early-middle-AB",
+      "item_id": "p04",
+      "condition_type": "conflict",
+      "position_pair": "early-middle",
+      "arrangement": "AB",
+      "mentioned_months": [
+        "january"
+      ],
+      "selected_months": [
+        "january"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "earlier",
+      "cost_usd": 0.02145271,
+      "prompt_tokens": 165015,
+      "completion_tokens": 2
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "condition_id": "p04-n5000-middle-late-AB",
+      "item_id": "p04",
+      "condition_type": "conflict",
+      "position_pair": "middle-late",
+      "arrangement": "AB",
+      "mentioned_months": [
+        "january"
+      ],
+      "selected_months": [
+        "january"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "earlier",
+      "cost_usd": 0.03156235,
+      "prompt_tokens": 126226,
+      "completion_tokens": 5
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "condition_id": "p04-n5000-middle-late-BA",
+      "item_id": "p04",
+      "condition_type": "conflict",
+      "position_pair": "middle-late",
+      "arrangement": "BA",
+      "mentioned_months": [
+        "january"
+      ],
+      "selected_months": [
+        "january"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "later",
+      "cost_usd": 0.04455481,
+      "prompt_tokens": 165015,
+      "completion_tokens": 1
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "condition_id": "p03-n5000-early-late-BA",
+      "item_id": "p03",
+      "condition_type": "conflict",
+      "position_pair": "early-late",
+      "arrangement": "BA",
+      "mentioned_months": [
+        "january"
+      ],
+      "selected_months": [
+        "january"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "earlier",
+      "cost_usd": 0.04455967,
+      "prompt_tokens": 165033,
+      "completion_tokens": 1
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "condition_id": "p04-n5000-early-late-BB",
+      "item_id": "p04",
+      "condition_type": "agreement",
+      "position_pair": "early-late",
+      "arrangement": "BB",
+      "mentioned_months": [
+        "may"
+      ],
+      "selected_months": [
+        "may"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.04455481,
+      "prompt_tokens": 165015,
+      "completion_tokens": 1
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "condition_id": "p02-n5000-early-middle-AB",
+      "item_id": "p02",
+      "condition_type": "conflict",
+      "position_pair": "early-middle",
+      "arrangement": "AB",
+      "mentioned_months": [
+        "march"
+      ],
+      "selected_months": [
+        "march"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "later",
+      "cost_usd": 0.04455562,
+      "prompt_tokens": 165018,
+      "completion_tokens": 1
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "condition_id": "p04-n5000-middle-late-AB",
+      "item_id": "p04",
+      "condition_type": "conflict",
+      "position_pair": "middle-late",
+      "arrangement": "AB",
+      "mentioned_months": [
+        "january"
+      ],
+      "selected_months": [
+        "january"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "earlier",
+      "cost_usd": 0.02145271,
+      "prompt_tokens": 165015,
+      "completion_tokens": 2
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "condition_id": "p01-n5000-middle-late-BB",
+      "item_id": "p01",
+      "condition_type": "agreement",
+      "position_pair": "middle-late",
+      "arrangement": "BB",
+      "mentioned_months": [
+        "september"
+      ],
+      "selected_months": [
+        "september"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.02145323,
+      "prompt_tokens": 165019,
+      "completion_tokens": 2
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "condition_id": "p03-n5000-middle-late-AB",
+      "item_id": "p03",
+      "condition_type": "conflict",
+      "position_pair": "middle-late",
+      "arrangement": "AB",
+      "mentioned_months": [
+        "may"
+      ],
+      "selected_months": [
+        "may"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "earlier",
+      "cost_usd": 0.03155685,
+      "prompt_tokens": 126204,
+      "completion_tokens": 5
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "condition_id": "p03-n5000-middle-late-AB",
+      "item_id": "p03",
+      "condition_type": "conflict",
+      "position_pair": "middle-late",
+      "arrangement": "AB",
+      "mentioned_months": [
+        "may"
+      ],
+      "selected_months": [
+        "may"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "earlier",
+      "cost_usd": 0.01004675,
+      "prompt_tokens": 133890,
+      "completion_tokens": 20
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "condition_id": "p01-n5000-early-middle-AB",
+      "item_id": "p01",
+      "condition_type": "conflict",
+      "position_pair": "early-middle",
+      "arrangement": "AB",
+      "mentioned_months": [
+        "september"
+      ],
+      "selected_months": [
+        "september"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "later",
+      "cost_usd": 0.02145323,
+      "prompt_tokens": 165019,
+      "completion_tokens": 2
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "condition_id": "p01-n5000-early-late-AB",
+      "item_id": "p01",
+      "condition_type": "conflict",
+      "position_pair": "early-late",
+      "arrangement": "AB",
+      "mentioned_months": [
+        "september"
+      ],
+      "selected_months": [
+        "september"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "later",
+      "cost_usd": 0.010084275,
+      "prompt_tokens": 133877,
+      "completion_tokens": 174
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "condition_id": "p01-n5000-middle-late-BA",
+      "item_id": "p01",
+      "condition_type": "conflict",
+      "position_pair": "middle-late",
+      "arrangement": "BA",
+      "mentioned_months": [
+        "september"
+      ],
+      "selected_months": [
+        "september"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "earlier",
+      "cost_usd": 0.010105775,
+      "prompt_tokens": 133877,
+      "completion_tokens": 260
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "condition_id": "p02-n5000-early-late-BA",
+      "item_id": "p02",
+      "condition_type": "conflict",
+      "position_pair": "early-late",
+      "arrangement": "BA",
+      "mentioned_months": [
+        "september"
+      ],
+      "selected_months": [
+        "september"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "later",
+      "cost_usd": 0.01009695,
+      "prompt_tokens": 133896,
+      "completion_tokens": 219
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "condition_id": "p01-n5000-early-middle-BB",
+      "item_id": "p01",
+      "condition_type": "agreement",
+      "position_pair": "early-middle",
+      "arrangement": "BB",
+      "mentioned_months": [
+        "september"
+      ],
+      "selected_months": [
+        "september"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.010203775,
+      "prompt_tokens": 133877,
+      "completion_tokens": 652
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "condition_id": "p01-n5000-early-late-AB",
+      "item_id": "p01",
+      "condition_type": "conflict",
+      "position_pair": "early-late",
+      "arrangement": "AB",
+      "mentioned_months": [
+        "march"
+      ],
+      "selected_months": [
+        "march"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "earlier",
+      "cost_usd": 0.03155335,
+      "prompt_tokens": 126190,
+      "completion_tokens": 5
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "condition_id": "p04-n5000-middle-late-BA",
+      "item_id": "p04",
+      "condition_type": "conflict",
+      "position_pair": "middle-late",
+      "arrangement": "BA",
+      "mentioned_months": [
+        "may"
+      ],
+      "selected_months": [
+        "may"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "earlier",
+      "cost_usd": 0.010056125,
+      "prompt_tokens": 133915,
+      "completion_tokens": 50
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "condition_id": "p01-n5000-early-middle-AA",
+      "item_id": "p01",
+      "condition_type": "agreement",
+      "position_pair": "early-middle",
+      "arrangement": "AA",
+      "mentioned_months": [
+        "march"
+      ],
+      "selected_months": [
+        "march"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.02145323,
+      "prompt_tokens": 165019,
+      "completion_tokens": 2
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "condition_id": "p01-n5000-early-late-AB",
+      "item_id": "p01",
+      "condition_type": "conflict",
+      "position_pair": "early-late",
+      "arrangement": "AB",
+      "mentioned_months": [
+        "september"
+      ],
+      "selected_months": [
+        "september"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "later",
+      "cost_usd": 0.02145323,
+      "prompt_tokens": 165019,
+      "completion_tokens": 2
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "condition_id": "p02-n5000-middle-late-BA",
+      "item_id": "p02",
+      "condition_type": "conflict",
+      "position_pair": "middle-late",
+      "arrangement": "BA",
+      "mentioned_months": [
+        "september"
+      ],
+      "selected_months": [
+        "september"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "later",
+      "cost_usd": 0.0214531,
+      "prompt_tokens": 165018,
+      "completion_tokens": 2
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "condition_id": "p03-n5000-early-late-AB",
+      "item_id": "p03",
+      "condition_type": "conflict",
+      "position_pair": "early-late",
+      "arrangement": "AB",
+      "mentioned_months": [
+        "january"
+      ],
+      "selected_months": [
+        "january"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "later",
+      "cost_usd": 0.02145505,
+      "prompt_tokens": 165033,
+      "completion_tokens": 2
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "condition_id": "p02-n5000-early-middle-BB",
+      "item_id": "p02",
+      "condition_type": "agreement",
+      "position_pair": "early-middle",
+      "arrangement": "BB",
+      "mentioned_months": [
+        "march"
+      ],
+      "selected_months": [
+        "march"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.0214531,
+      "prompt_tokens": 165018,
+      "completion_tokens": 2
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "condition_id": "p01-n5000-early-late-BA",
+      "item_id": "p01",
+      "condition_type": "conflict",
+      "position_pair": "early-late",
+      "arrangement": "BA",
+      "mentioned_months": [
+        "march"
+      ],
+      "selected_months": [
+        "march"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "later",
+      "cost_usd": 0.010124025,
+      "prompt_tokens": 133877,
+      "completion_tokens": 333
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "condition_id": "p02-n5000-middle-late-BB",
+      "item_id": "p02",
+      "condition_type": "agreement",
+      "position_pair": "middle-late",
+      "arrangement": "BB",
+      "mentioned_months": [
+        "march"
+      ],
+      "selected_months": [
+        "march"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.0214531,
+      "prompt_tokens": 165018,
+      "completion_tokens": 2
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "condition_id": "p01-n5000-early-late-BB",
+      "item_id": "p01",
+      "condition_type": "agreement",
+      "position_pair": "early-late",
+      "arrangement": "BB",
+      "mentioned_months": [
+        "september"
+      ],
+      "selected_months": [
+        "september"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.02145323,
+      "prompt_tokens": 165019,
+      "completion_tokens": 2
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "condition_id": "p04-n5000-early-middle-BA",
+      "item_id": "p04",
+      "condition_type": "conflict",
+      "position_pair": "early-middle",
+      "arrangement": "BA",
+      "mentioned_months": [
+        "may"
+      ],
+      "selected_months": [
+        "may"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "earlier",
+      "cost_usd": 0.010054375,
+      "prompt_tokens": 133915,
+      "completion_tokens": 43
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "condition_id": "p01-n5000-early-late-BB",
+      "item_id": "p01",
+      "condition_type": "agreement",
+      "position_pair": "early-late",
+      "arrangement": "BB",
+      "mentioned_months": [
+        "september"
+      ],
+      "selected_months": [
+        "september"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.010070775,
+      "prompt_tokens": 133877,
+      "completion_tokens": 120
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "condition_id": "p03-n5000-early-middle-AA",
+      "item_id": "p03",
+      "condition_type": "agreement",
+      "position_pair": "early-middle",
+      "arrangement": "AA",
+      "mentioned_months": [
+        "may"
+      ],
+      "selected_months": [
+        "may"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.01005975,
+      "prompt_tokens": 133890,
+      "completion_tokens": 72
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "condition_id": "p04-n5000-early-middle-AA",
+      "item_id": "p04",
+      "condition_type": "agreement",
+      "position_pair": "early-middle",
+      "arrangement": "AA",
+      "mentioned_months": [
+        "january"
+      ],
+      "selected_months": [
+        "january"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.03156235,
+      "prompt_tokens": 126226,
+      "completion_tokens": 5
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "condition_id": "p03-n5000-early-late-BB",
+      "item_id": "p03",
+      "condition_type": "agreement",
+      "position_pair": "early-late",
+      "arrangement": "BB",
+      "mentioned_months": [
+        "january"
+      ],
+      "selected_months": [
+        "january"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.01004725,
+      "prompt_tokens": 133890,
+      "completion_tokens": 22
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "condition_id": "p04-n5000-middle-late-BA",
+      "item_id": "p04",
+      "condition_type": "conflict",
+      "position_pair": "middle-late",
+      "arrangement": "BA",
+      "mentioned_months": [
+        "may"
+      ],
+      "selected_months": [
+        "may"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "earlier",
+      "cost_usd": 0.03156235,
+      "prompt_tokens": 126226,
+      "completion_tokens": 5
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "condition_id": "p04-n5000-early-late-BB",
+      "item_id": "p04",
+      "condition_type": "agreement",
+      "position_pair": "early-late",
+      "arrangement": "BB",
+      "mentioned_months": [
+        "may"
+      ],
+      "selected_months": [
+        "may"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.010044375,
+      "prompt_tokens": 133915,
+      "completion_tokens": 3
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "condition_id": "p01-n5000-middle-late-AA",
+      "item_id": "p01",
+      "condition_type": "agreement",
+      "position_pair": "middle-late",
+      "arrangement": "AA",
+      "mentioned_months": [
+        "march"
+      ],
+      "selected_months": [
+        "march"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.02145323,
+      "prompt_tokens": 165019,
+      "completion_tokens": 2
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "condition_id": "p02-n5000-early-middle-BA",
+      "item_id": "p02",
+      "condition_type": "conflict",
+      "position_pair": "early-middle",
+      "arrangement": "BA",
+      "mentioned_months": [
+        "march"
+      ],
+      "selected_months": [
+        "march"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "earlier",
+      "cost_usd": 0.0214531,
+      "prompt_tokens": 165018,
+      "completion_tokens": 2
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "condition_id": "p01-n5000-middle-late-AB",
+      "item_id": "p01",
+      "condition_type": "conflict",
+      "position_pair": "middle-late",
+      "arrangement": "AB",
+      "mentioned_months": [
+        "march"
+      ],
+      "selected_months": [
+        "march"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "earlier",
+      "cost_usd": 0.03155335,
+      "prompt_tokens": 126190,
+      "completion_tokens": 5
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "condition_id": "p04-n5000-early-late-AA",
+      "item_id": "p04",
+      "condition_type": "agreement",
+      "position_pair": "early-late",
+      "arrangement": "AA",
+      "mentioned_months": [
+        "january"
+      ],
+      "selected_months": [
+        "january"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.010062625,
+      "prompt_tokens": 133915,
+      "completion_tokens": 76
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "condition_id": "p02-n5000-early-late-AA",
+      "item_id": "p02",
+      "condition_type": "agreement",
+      "position_pair": "early-late",
+      "arrangement": "AA",
+      "mentioned_months": [
+        "september"
+      ],
+      "selected_months": [
+        "september"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.0100487,
+      "prompt_tokens": 133896,
+      "completion_tokens": 26
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "condition_id": "p04-n5000-early-middle-BB",
+      "item_id": "p04",
+      "condition_type": "agreement",
+      "position_pair": "early-middle",
+      "arrangement": "BB",
+      "mentioned_months": [
+        "may"
+      ],
+      "selected_months": [
+        "may"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.03156235,
+      "prompt_tokens": 126226,
+      "completion_tokens": 5
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "condition_id": "p03-n5000-early-late-BA",
+      "item_id": "p03",
+      "condition_type": "conflict",
+      "position_pair": "early-late",
+      "arrangement": "BA",
+      "mentioned_months": [
+        "january"
+      ],
+      "selected_months": [
+        "january"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "earlier",
+      "cost_usd": 0.0100745,
+      "prompt_tokens": 133890,
+      "completion_tokens": 131
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "condition_id": "p03-n5000-early-late-AA",
+      "item_id": "p03",
+      "condition_type": "agreement",
+      "position_pair": "early-late",
+      "arrangement": "AA",
+      "mentioned_months": [
+        "june"
+      ],
+      "selected_months": [
+        "june"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "other",
+      "cost_usd": 0.02145505,
+      "prompt_tokens": 165033,
+      "completion_tokens": 2
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "condition_id": "p02-n5000-early-late-BA",
+      "item_id": "p02",
+      "condition_type": "conflict",
+      "position_pair": "early-late",
+      "arrangement": "BA",
+      "mentioned_months": [
+        "march"
+      ],
+      "selected_months": [
+        "march"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "earlier",
+      "cost_usd": 0.0315536,
+      "prompt_tokens": 126191,
+      "completion_tokens": 5
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "condition_id": "p03-n5000-middle-late-AA",
+      "item_id": "p03",
+      "condition_type": "agreement",
+      "position_pair": "middle-late",
+      "arrangement": "AA",
+      "mentioned_months": [
+        "may"
+      ],
+      "selected_months": [
+        "may"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.02145505,
+      "prompt_tokens": 165033,
+      "completion_tokens": 2
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "condition_id": "p04-n5000-middle-late-AA",
+      "item_id": "p04",
+      "condition_type": "agreement",
+      "position_pair": "middle-late",
+      "arrangement": "AA",
+      "mentioned_months": [
+        "january"
+      ],
+      "selected_months": [
+        "january"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.02145271,
+      "prompt_tokens": 165015,
+      "completion_tokens": 2
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "condition_id": "p04-n5000-early-late-AA",
+      "item_id": "p04",
+      "condition_type": "agreement",
+      "position_pair": "early-late",
+      "arrangement": "AA",
+      "mentioned_months": [
+        "january"
+      ],
+      "selected_months": [
+        "january"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.03156235,
+      "prompt_tokens": 126226,
+      "completion_tokens": 5
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "condition_id": "p03-n5000-early-late-AA",
+      "item_id": "p03",
+      "condition_type": "agreement",
+      "position_pair": "early-late",
+      "arrangement": "AA",
+      "mentioned_months": [
+        "may"
+      ],
+      "selected_months": [
+        "may"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.03155685,
+      "prompt_tokens": 126204,
+      "completion_tokens": 5
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "condition_id": "p03-n5000-middle-late-AB",
+      "item_id": "p03",
+      "condition_type": "conflict",
+      "position_pair": "middle-late",
+      "arrangement": "AB",
+      "mentioned_months": [
+        "january"
+      ],
+      "selected_months": [
+        "january"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "later",
+      "cost_usd": 0.02145505,
+      "prompt_tokens": 165033,
+      "completion_tokens": 2
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "condition_id": "p03-n5000-early-middle-BB",
+      "item_id": "p03",
+      "condition_type": "agreement",
+      "position_pair": "early-middle",
+      "arrangement": "BB",
+      "mentioned_months": [
+        "january"
+      ],
+      "selected_months": [
+        "january"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.0100565,
+      "prompt_tokens": 133890,
+      "completion_tokens": 59
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "condition_id": "p02-n5000-middle-late-BB",
+      "item_id": "p02",
+      "condition_type": "agreement",
+      "position_pair": "middle-late",
+      "arrangement": "BB",
+      "mentioned_months": [
+        "march"
+      ],
+      "selected_months": [
+        "march"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.0315536,
+      "prompt_tokens": 126191,
+      "completion_tokens": 5
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "condition_id": "p04-n5000-early-late-BA",
+      "item_id": "p04",
+      "condition_type": "conflict",
+      "position_pair": "early-late",
+      "arrangement": "BA",
+      "mentioned_months": [
+        "january"
+      ],
+      "selected_months": [
+        "january"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "later",
+      "cost_usd": 0.02145271,
+      "prompt_tokens": 165015,
+      "completion_tokens": 2
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "condition_id": "p04-n5000-early-middle-AA",
+      "item_id": "p04",
+      "condition_type": "agreement",
+      "position_pair": "early-middle",
+      "arrangement": "AA",
+      "mentioned_months": [
+        "january"
+      ],
+      "selected_months": [
+        "january"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.02145271,
+      "prompt_tokens": 165015,
+      "completion_tokens": 2
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "condition_id": "p04-n5000-early-middle-BA",
+      "item_id": "p04",
+      "condition_type": "conflict",
+      "position_pair": "early-middle",
+      "arrangement": "BA",
+      "mentioned_months": [
+        "may"
+      ],
+      "selected_months": [
+        "may"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "earlier",
+      "cost_usd": 0.03156235,
+      "prompt_tokens": 126226,
+      "completion_tokens": 5
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "condition_id": "p04-n5000-early-middle-BB",
+      "item_id": "p04",
+      "condition_type": "agreement",
+      "position_pair": "early-middle",
+      "arrangement": "BB",
+      "mentioned_months": [
+        "may"
+      ],
+      "selected_months": [
+        "may"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.003703935,
+      "prompt_tokens": 133915,
+      "completion_tokens": 51
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "condition_id": "p03-n5000-early-middle-AA",
+      "item_id": "p03",
+      "condition_type": "agreement",
+      "position_pair": "early-middle",
+      "arrangement": "AA",
+      "mentioned_months": [
+        "june"
+      ],
+      "selected_months": [
+        "june"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "other",
+      "cost_usd": 0.02145505,
+      "prompt_tokens": 165033,
+      "completion_tokens": 2
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "condition_id": "p01-n5000-early-middle-AA",
+      "item_id": "p01",
+      "condition_type": "agreement",
+      "position_pair": "early-middle",
+      "arrangement": "AA",
+      "mentioned_months": [
+        "march"
+      ],
+      "selected_months": [
+        "march"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.03155335,
+      "prompt_tokens": 126190,
+      "completion_tokens": 5
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "condition_id": "p02-n5000-early-middle-BB",
+      "item_id": "p02",
+      "condition_type": "agreement",
+      "position_pair": "early-middle",
+      "arrangement": "BB",
+      "mentioned_months": [
+        "march"
+      ],
+      "selected_months": [
+        "march"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.0100452,
+      "prompt_tokens": 133896,
+      "completion_tokens": 12
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "condition_id": "p04-n5000-middle-late-BB",
+      "item_id": "p04",
+      "condition_type": "agreement",
+      "position_pair": "middle-late",
+      "arrangement": "BB",
+      "mentioned_months": [
+        "may"
+      ],
+      "selected_months": [
+        "may"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.02145271,
+      "prompt_tokens": 165015,
+      "completion_tokens": 2
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "condition_id": "p01-n5000-middle-late-AB",
+      "item_id": "p01",
+      "condition_type": "conflict",
+      "position_pair": "middle-late",
+      "arrangement": "AB",
+      "mentioned_months": [
+        "march"
+      ],
+      "selected_months": [
+        "march"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "earlier",
+      "cost_usd": 0.010041525,
+      "prompt_tokens": 133877,
+      "completion_tokens": 3
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "condition_id": "p03-n5000-early-middle-BB",
+      "item_id": "p03",
+      "condition_type": "agreement",
+      "position_pair": "early-middle",
+      "arrangement": "BB",
+      "mentioned_months": [
+        "january"
+      ],
+      "selected_months": [
+        "january"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.02145505,
+      "prompt_tokens": 165033,
+      "completion_tokens": 2
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "condition_id": "p03-n5000-early-late-BB",
+      "item_id": "p03",
+      "condition_type": "agreement",
+      "position_pair": "early-late",
+      "arrangement": "BB",
+      "mentioned_months": [
+        "january"
+      ],
+      "selected_months": [
+        "january"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.03155685,
+      "prompt_tokens": 126204,
+      "completion_tokens": 5
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "condition_id": "p04-n5000-early-late-AA",
+      "item_id": "p04",
+      "condition_type": "agreement",
+      "position_pair": "early-late",
+      "arrangement": "AA",
+      "mentioned_months": [
+        "january"
+      ],
+      "selected_months": [
+        "january"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.02145271,
+      "prompt_tokens": 165015,
+      "completion_tokens": 2
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "condition_id": "p04-n5000-middle-late-BB",
+      "item_id": "p04",
+      "condition_type": "agreement",
+      "position_pair": "middle-late",
+      "arrangement": "BB",
+      "mentioned_months": [
+        "may"
+      ],
+      "selected_months": [
+        "may"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.010044375,
+      "prompt_tokens": 133915,
+      "completion_tokens": 3
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "condition_id": "p04-n5000-middle-late-AB",
+      "item_id": "p04",
+      "condition_type": "conflict",
+      "position_pair": "middle-late",
+      "arrangement": "AB",
+      "mentioned_months": [
+        "january"
+      ],
+      "selected_months": [
+        "january"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "earlier",
+      "cost_usd": 0.010044375,
+      "prompt_tokens": 133915,
+      "completion_tokens": 3
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "condition_id": "p02-n5000-middle-late-BB",
+      "item_id": "p02",
+      "condition_type": "agreement",
+      "position_pair": "middle-late",
+      "arrangement": "BB",
+      "mentioned_months": [
+        "march"
+      ],
+      "selected_months": [
+        "march"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.01005545,
+      "prompt_tokens": 133896,
+      "completion_tokens": 53
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "condition_id": "p04-n5000-early-middle-AB",
+      "item_id": "p04",
+      "condition_type": "conflict",
+      "position_pair": "early-middle",
+      "arrangement": "AB",
+      "mentioned_months": [
+        "january"
+      ],
+      "selected_months": [
+        "january"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "earlier",
+      "cost_usd": 0.010053125,
+      "prompt_tokens": 133915,
+      "completion_tokens": 38
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "condition_id": "p01-n5000-early-late-AA",
+      "item_id": "p01",
+      "condition_type": "agreement",
+      "position_pair": "early-late",
+      "arrangement": "AA",
+      "mentioned_months": [
+        "march"
+      ],
+      "selected_months": [
+        "march"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.02145323,
+      "prompt_tokens": 165019,
+      "completion_tokens": 2
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "condition_id": "p03-n5000-early-middle-AB",
+      "item_id": "p03",
+      "condition_type": "conflict",
+      "position_pair": "early-middle",
+      "arrangement": "AB",
+      "mentioned_months": [
+        "january"
+      ],
+      "selected_months": [
+        "january"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "later",
+      "cost_usd": 0.02145505,
+      "prompt_tokens": 165033,
+      "completion_tokens": 2
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "condition_id": "p03-n5000-early-middle-BA",
+      "item_id": "p03",
+      "condition_type": "conflict",
+      "position_pair": "early-middle",
+      "arrangement": "BA",
+      "mentioned_months": [
+        "january"
+      ],
+      "selected_months": [
+        "january"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "earlier",
+      "cost_usd": 0.01008325,
+      "prompt_tokens": 133890,
+      "completion_tokens": 166
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "condition_id": "p03-n5000-early-late-AA",
+      "item_id": "p03",
+      "condition_type": "agreement",
+      "position_pair": "early-late",
+      "arrangement": "AA",
+      "mentioned_months": [
+        "may"
+      ],
+      "selected_months": [
+        "may"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.01006825,
+      "prompt_tokens": 133890,
+      "completion_tokens": 106
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "condition_id": "p04-n5000-early-middle-AA",
+      "item_id": "p04",
+      "condition_type": "agreement",
+      "position_pair": "early-middle",
+      "arrangement": "AA",
+      "mentioned_months": [
+        "january"
+      ],
+      "selected_months": [
+        "january"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.010048125,
+      "prompt_tokens": 133915,
+      "completion_tokens": 18
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "condition_id": "p02-n5000-middle-late-AB",
+      "item_id": "p02",
+      "condition_type": "conflict",
+      "position_pair": "middle-late",
+      "arrangement": "AB",
+      "mentioned_months": [
+        "september"
+      ],
+      "selected_months": [
+        "september"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "earlier",
+      "cost_usd": 0.0315536,
+      "prompt_tokens": 126191,
+      "completion_tokens": 5
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "condition_id": "p01-n5000-middle-late-BB",
+      "item_id": "p01",
+      "condition_type": "agreement",
+      "position_pair": "middle-late",
+      "arrangement": "BB",
+      "mentioned_months": [
+        "september"
+      ],
+      "selected_months": [
+        "september"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.03155335,
+      "prompt_tokens": 126190,
+      "completion_tokens": 5
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "condition_id": "p02-n5000-early-middle-AA",
+      "item_id": "p02",
+      "condition_type": "agreement",
+      "position_pair": "early-middle",
+      "arrangement": "AA",
+      "mentioned_months": [
+        "september"
+      ],
+      "selected_months": [
+        "september"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.01005145,
+      "prompt_tokens": 133896,
+      "completion_tokens": 37
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "condition_id": "p04-n5000-early-middle-BB",
+      "item_id": "p04",
+      "condition_type": "agreement",
+      "position_pair": "early-middle",
+      "arrangement": "BB",
+      "mentioned_months": [
+        "may"
+      ],
+      "selected_months": [
+        "may"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.02145271,
+      "prompt_tokens": 165015,
+      "completion_tokens": 2
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "condition_id": "p02-n5000-middle-late-BA",
+      "item_id": "p02",
+      "condition_type": "conflict",
+      "position_pair": "middle-late",
+      "arrangement": "BA",
+      "mentioned_months": [
+        "march"
+      ],
+      "selected_months": [
+        "march"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "earlier",
+      "cost_usd": 0.0315536,
+      "prompt_tokens": 126191,
+      "completion_tokens": 5
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "condition_id": "p03-n5000-middle-late-BA",
+      "item_id": "p03",
+      "condition_type": "conflict",
+      "position_pair": "middle-late",
+      "arrangement": "BA",
+      "mentioned_months": [
+        "january"
+      ],
+      "selected_months": [
+        "january"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "earlier",
+      "cost_usd": 0.03155685,
+      "prompt_tokens": 126204,
+      "completion_tokens": 5
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "condition_id": "p02-n5000-early-late-BB",
+      "item_id": "p02",
+      "condition_type": "agreement",
+      "position_pair": "early-late",
+      "arrangement": "BB",
+      "mentioned_months": [
+        "march"
+      ],
+      "selected_months": [
+        "march"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.0214531,
+      "prompt_tokens": 165018,
+      "completion_tokens": 2
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "condition_id": "p01-n5000-early-late-AA",
+      "item_id": "p01",
+      "condition_type": "agreement",
+      "position_pair": "early-late",
+      "arrangement": "AA",
+      "mentioned_months": [
+        "march"
+      ],
+      "selected_months": [
+        "march"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.010070775,
+      "prompt_tokens": 133877,
+      "completion_tokens": 120
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "condition_id": "p01-n5000-early-late-AA",
+      "item_id": "p01",
+      "condition_type": "agreement",
+      "position_pair": "early-late",
+      "arrangement": "AA",
+      "mentioned_months": [
+        "march"
+      ],
+      "selected_months": [
+        "march"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.03155335,
+      "prompt_tokens": 126190,
+      "completion_tokens": 5
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "condition_id": "p02-n5000-early-middle-BA",
+      "item_id": "p02",
+      "condition_type": "conflict",
+      "position_pair": "early-middle",
+      "arrangement": "BA",
+      "mentioned_months": [
+        "september"
+      ],
+      "selected_months": [
+        "september"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "later",
+      "cost_usd": 0.01008595,
+      "prompt_tokens": 133896,
+      "completion_tokens": 175
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "condition_id": "p04-n5000-early-middle-AB",
+      "item_id": "p04",
+      "condition_type": "conflict",
+      "position_pair": "early-middle",
+      "arrangement": "AB",
+      "mentioned_months": [
+        "january"
+      ],
+      "selected_months": [
+        "january"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "earlier",
+      "cost_usd": 0.03156235,
+      "prompt_tokens": 126226,
+      "completion_tokens": 5
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "condition_id": "p03-n5000-early-middle-BA",
+      "item_id": "p03",
+      "condition_type": "conflict",
+      "position_pair": "early-middle",
+      "arrangement": "BA",
+      "mentioned_months": [
+        "january"
+      ],
+      "selected_months": [
+        "january"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "earlier",
+      "cost_usd": 0.03155685,
+      "prompt_tokens": 126204,
+      "completion_tokens": 5
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "condition_id": "p01-n5000-early-late-BA",
+      "item_id": "p01",
+      "condition_type": "conflict",
+      "position_pair": "early-late",
+      "arrangement": "BA",
+      "mentioned_months": [
+        "march"
+      ],
+      "selected_months": [
+        "march"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "later",
+      "cost_usd": 0.02145323,
+      "prompt_tokens": 165019,
+      "completion_tokens": 2
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "condition_id": "p03-n5000-middle-late-AA",
+      "item_id": "p03",
+      "condition_type": "agreement",
+      "position_pair": "middle-late",
+      "arrangement": "AA",
+      "mentioned_months": [
+        "may"
+      ],
+      "selected_months": [
+        "may"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.00369126,
+      "prompt_tokens": 133890,
+      "completion_tokens": 3
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "condition_id": "p02-n5000-early-late-BA",
+      "item_id": "p02",
+      "condition_type": "conflict",
+      "position_pair": "early-late",
+      "arrangement": "BA",
+      "mentioned_months": [
+        "september"
+      ],
+      "selected_months": [
+        "september"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "later",
+      "cost_usd": 0.0214531,
+      "prompt_tokens": 165018,
+      "completion_tokens": 2
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "condition_id": "p01-n5000-early-middle-BB",
+      "item_id": "p01",
+      "condition_type": "agreement",
+      "position_pair": "early-middle",
+      "arrangement": "BB",
+      "mentioned_months": [
+        "september"
+      ],
+      "selected_months": [
+        "september"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.04455589,
+      "prompt_tokens": 165019,
+      "completion_tokens": 1
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "condition_id": "p02-n5000-early-middle-BB",
+      "item_id": "p02",
+      "condition_type": "agreement",
+      "position_pair": "early-middle",
+      "arrangement": "BB",
+      "mentioned_months": [
+        "march"
+      ],
+      "selected_months": [
+        "march"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.0315536,
+      "prompt_tokens": 126191,
+      "completion_tokens": 5
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "condition_id": "p03-n5000-middle-late-BB",
+      "item_id": "p03",
+      "condition_type": "agreement",
+      "position_pair": "middle-late",
+      "arrangement": "BB",
+      "mentioned_months": [
+        "january"
+      ],
+      "selected_months": [
+        "january"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.03155685,
+      "prompt_tokens": 126204,
+      "completion_tokens": 5
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "condition_id": "p02-n5000-early-middle-AA",
+      "item_id": "p02",
+      "condition_type": "agreement",
+      "position_pair": "early-middle",
+      "arrangement": "AA",
+      "mentioned_months": [
+        "september"
+      ],
+      "selected_months": [
+        "september"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.04455562,
+      "prompt_tokens": 165018,
+      "completion_tokens": 1
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "condition_id": "p01-n5000-middle-late-BA",
+      "item_id": "p01",
+      "condition_type": "conflict",
+      "position_pair": "middle-late",
+      "arrangement": "BA",
+      "mentioned_months": [
+        "march"
+      ],
+      "selected_months": [
+        "march"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "later",
+      "cost_usd": 0.04455589,
+      "prompt_tokens": 165019,
+      "completion_tokens": 1
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "condition_id": "p02-n5000-early-late-BB",
+      "item_id": "p02",
+      "condition_type": "agreement",
+      "position_pair": "early-late",
+      "arrangement": "BB",
+      "mentioned_months": [
+        "march"
+      ],
+      "selected_months": [
+        "march"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.0315536,
+      "prompt_tokens": 126191,
+      "completion_tokens": 5
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "condition_id": "p02-n5000-early-late-AB",
+      "item_id": "p02",
+      "condition_type": "conflict",
+      "position_pair": "early-late",
+      "arrangement": "AB",
+      "mentioned_months": [
+        "march"
+      ],
+      "selected_months": [
+        "march"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "later",
+      "cost_usd": 0.01008495,
+      "prompt_tokens": 133896,
+      "completion_tokens": 171
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "condition_id": "p02-n5000-early-late-AB",
+      "item_id": "p02",
+      "condition_type": "conflict",
+      "position_pair": "early-late",
+      "arrangement": "AB",
+      "mentioned_months": [
+        "september"
+      ],
+      "selected_months": [
+        "september"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "earlier",
+      "cost_usd": 0.0315536,
+      "prompt_tokens": 126191,
+      "completion_tokens": 5
+    },
+    {
+      "model": "openai/gpt-5.6-luna",
+      "condition_id": "p02-n5000-early-middle-AA",
+      "item_id": "p02",
+      "condition_type": "agreement",
+      "position_pair": "early-middle",
+      "arrangement": "AA",
+      "mentioned_months": [
+        "september"
+      ],
+      "selected_months": [
+        "september"
+      ],
+      "conflict_reported": false,
+      "format_compliant": true,
+      "needs_review": false,
+      "classification": "supported",
+      "cost_usd": 0.0315536,
+      "prompt_tokens": 126191,
+      "completion_tokens": 5
+    }
+  ]
+}
