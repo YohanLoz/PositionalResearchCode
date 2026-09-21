@@ -23,6 +23,7 @@ REVIEWS_FILE = OUTPUT_DIR / "response-reviews.json"
 SUMMARY_FILE = OUTPUT_DIR / "summary.json"
 MODEL_FILE = position.BASE_DIR / "position-experiment-models.json"
 CARD_COUNT = 5000
+KEY_SPENDING_CAP_USD = 6
 EXECUTION_SEED = position.SEED + 300
 ALTERNATIVES = {"March": "September", "September": "March", "May": "January", "January": "May"}
 SCORING_RULES = {
@@ -146,11 +147,13 @@ def check_budget(key, minimum_remaining=0.10):
     data = api_request("key", key)["data"]
     limit = data.get("limit")
     remaining = data.get("limit_remaining")
-    if limit is None or limit > 5 or data.get("limit_reset") is not None:
-        raise ValueError("This run requires a non-resetting API key limit of at most USD 5.")
-    if remaining is None or remaining < minimum_remaining:
+    usage = data.get("usage")
+    if limit is None or usage is None or data.get("limit_reset") is not None:
+        raise ValueError("This run requires a non-resetting API key with reported usage and allowance.")
+    effective_remaining = min(remaining, KEY_SPENDING_CAP_USD - usage) if remaining is not None else None
+    if effective_remaining is None or effective_remaining < minimum_remaining:
         raise ValueError("Insufficient API key allowance; ask before increasing the budget.")
-    return {"limit": limit, "remaining": remaining, "usage": data.get("usage")}
+    return {"limit": min(limit, KEY_SPENDING_CAP_USD), "remaining": effective_remaining, "usage": usage}
 
 
 def request_payload(model, condition):

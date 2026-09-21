@@ -60,7 +60,7 @@ Run all 144 model-condition pairs with the same model configuration:
 python run_conflict_experiment.py --run
 ```
 
-The runner checks the API key allowance before each request. It requires a non-resetting key limit of at most USD 5 and stops with less than USD 0.10 remaining. It saves each raw response and resumes without repeating completed pairs. There are no automatic request retries. Existing condition files must match the generated conditions.
+The runner checks API key usage before each request. It enforces a USD 6 total key-usage ceiling even if the account limit is higher, and stops with less than USD 0.10 remaining under either limit. The key must have a non-resetting allowance. It saves each raw response and resumes without repeating completed pairs. There are no automatic request retries. Existing condition files must match the generated conditions.
 
 Score saved responses without making API requests:
 

@@ -121,6 +121,13 @@ class ConflictExperimentTests(unittest.TestCase):
         with patch.object(experiment, 'api_request', return_value={'data': {'limit': 5, 'limit_remaining': 3.33, 'usage': 1.67}}):
             self.assertEqual(experiment.check_budget('fake-key')['remaining'], 3.33)
 
+    def test_higher_account_limit_does_not_raise_experiment_budget(self):
+        with patch.object(experiment, 'api_request', return_value={'data': {'limit': 10, 'limit_remaining': 8, 'usage': 2}}):
+            self.assertEqual(experiment.check_budget('fake-key')['remaining'], 4)
+        with patch.object(experiment, 'api_request', return_value={'data': {'limit': 10, 'limit_remaining': 4.05, 'usage': 5.95}}):
+            with self.assertRaises(ValueError):
+                experiment.check_budget('fake-key')
+
     def test_preparation_does_not_call_api(self):
         with patch('sys.argv', ['run_conflict_experiment.py']), patch.object(experiment, 'freeze_json'), patch.object(experiment.position, 'file_sha256', return_value='test'), patch.object(experiment, 'api_request') as api:
             experiment.main()
