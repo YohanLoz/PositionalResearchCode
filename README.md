@@ -70,6 +70,14 @@ python run_conflict_experiment.py --summarize
 
 Responses beyond bare month names require review in `response-reviews.json`. Each review records `model`, `condition_id`, `response_sha256`, `selected_months`, `conflict_reported` and `note`. Month names are lowercase; use an empty list for no selected month and `null` for an unresolved selection. The summary retains pending reviews and missing responses.
 
+Export the completed Q3 answers to a flat CSV for Excel or pandas:
+
+```sh
+python export_conflict_answers.py
+```
+
+`output/conflict-experiment/answers.csv` has one row per completed model and condition pair. `response` is the model's answer text; `selected_month` is the final scored month. For conflict conditions, `classification` says whether it selected the earlier or later card's month. For agreement conditions, `supported` means it selected the month shown on both relevant cards. The CSV excludes nested API records and full prompts. It contains 144 answers; the two failed attempts have no answer and are excluded. To load it with pandas, use `pd.read_csv("output/conflict-experiment/answers.csv")`.
+
 ## Files
 
 - `position-experiment-models.json` contains the model and provider routes.
@@ -81,3 +89,4 @@ Responses beyond bare month names require review in `response-reviews.json`. Eac
 - `output/conflict-experiment/results.json` contains raw responses, request settings, timing and automatic scores.
 - `output/conflict-experiment/response-reviews.json` contains reviewed classifications for non-standard responses.
 - `output/conflict-experiment/summary.json` contains final classifications, completion counts and recorded response costs derived from the raw responses and reviews. Failed attempts may have charges that are not available in their records.
+- `output/conflict-experiment/answers.csv` contains the flat Q3 answer export for Excel and pandas.

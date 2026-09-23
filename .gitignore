@@ -18,4 +18,5 @@ output/conflict-experiment/*
 !output/conflict-experiment/results.json
 !output/conflict-experiment/response-reviews.json
 !output/conflict-experiment/summary.json
+!output/conflict-experiment/answers.csv
 tmp/
